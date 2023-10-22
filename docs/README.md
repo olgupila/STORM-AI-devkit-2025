@@ -11,6 +11,7 @@ ______________________________________________________________________
   <a href="https://github.com/">Baseline</a> <br>
   <a href="https://github.com/">Metric</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/">Resources</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/">Citation</a> •
   <a href="https://eval.ai/web/challenges/challenge-page/XXXX/overview">Challenge</a>
 </p>
 
