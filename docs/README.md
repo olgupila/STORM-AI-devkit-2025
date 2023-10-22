@@ -6,11 +6,11 @@
 ______________________________________________________________________
 
 <p align="center">
-  <a href="#citation">Citation</a> •
-  <a href="#devkit-structure">Structure</a> •
-  <a href="https://github.com/">Installation</a> <br>
-  <a href="https://github.com/">Tutorial</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/">Documentation</a> •
+  <a href="https://github.com/">Installation</a> •
+  <a href="https://github.com/">SPLID Dataset</a> •
+  <a href="https://github.com/">Baseline</a> <br>
+  <a href="https://github.com/">Metric</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/">Resources</a> •
   <a href="https://eval.ai/web/challenges/challenge-page/XXXX/overview">Challenge</a>
 </p>
 
@@ -19,7 +19,8 @@ ______________________________________________________________________
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
 
 ______________________________________________________________________
-
+<div align="left">
+  
 ## Getting started
 You can find installation instructions for the development toolkit (devkit) on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html), and detailed information about the dataset is available on the [dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
