@@ -8,7 +8,7 @@ The SPLID dataset consists of a public challenge dataset and a private evaluatio
 
 The dataset consists of astrometric data over six months at a two-hour temporal resolution. The astrometric data consists of the osculating orbital elements, geodetic positions, and the Cartesian states of the satellite in the J2000 inertial reference frame. The figure below shows a snapshot of the data for a single satellite.
 
-![alt text](example_data.png?raw=true)
+![alt text](example_data.png)
 
 Each data is accompanied by a list of expert-annotated time-stamped pattern-of-life (PoL) nodes. Each row in the satellite PoL node list begins with a time index of the node, followed by the direction (EW - east-west, NS - north-south), the node type, and the propulsion type used while in this behavioral mode. The time index refers to the row index of the astrometric data that corresponds to that particular node. The description of each label is provided in the table below.
 
