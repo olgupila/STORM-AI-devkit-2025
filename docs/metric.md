@@ -1,13 +1,14 @@
 # Metrics
-The performance of the participant submissions will be evaluated based on their ability to accurately detect and classify satellite behavioral mode changes compared to the ground truth labels. The key metric used to create the leaderboard is the $F_2$ score, which is a variant of the $F_1$ score that emphasizes recall over precision. The precision corresponds to the proportion of detected nodes (True Positives (TPs) and False Positives (FPs)) that were correct, whereas the recall corresponds to the percentage of actual true nodes (True Positives (TPs) and False Negatives (FNs)) that were detected. Given that, the $F_2$ score is given as:
+The performance of the participant submissions will be evaluated based on their ability to accurately detect and classify satellite behavioral mode changes compared to the ground truth labels. The key metric used to create the leaderboard is the F<sub>2</sub> score, which is a variant of the F<sub>1</sub> score that emphasizes recall over precision. The precision corresponds to the proportion of detected nodes (True Positives (TPs) and False Positives (FPs)) that were correct, whereas the recall corresponds to the percentage of actual true nodes (True Positives (TPs) and False Negatives (FNs)) that were detected. Given that, the F<sub>2</sub> score is given as:
 
-$$Precision = TP/(TP + FP)$$
+<p align="center">
+Precision = TP/(TP + FP)
+<p align="center">
+Recall = TP/(TP + FN)
+<p align="center">
+F<sub>2</sub> = 5(Precision)(Recall)/4(Precision+Recall)
 
-$$Recall = TP/(TP + FN)$$
-
-$$F_2 = 5(Precision \cdot Recall)/4(Precision+Recall) $$
-
-The definition og true positive ($TP$), false positive ($FP$), and false negative ($FN$) are described in the table below:
+The definition of true positive (TP), false positive (FP), and false negative (FN) are described in the table below:
 
 | Acronym  | Description |
 | ------------- | ------------- |
