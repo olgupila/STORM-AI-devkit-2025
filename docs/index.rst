@@ -8,10 +8,10 @@ The development toolkit consists of a set of basic utility functions for data pa
 
    This project is under active development.
 
-Contents
---------
-
 .. toctree::
+   :hidden:
+
+   <self>
    README
    installation
    dataset
