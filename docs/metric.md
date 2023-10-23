@@ -6,7 +6,7 @@ Precision = TP/(TP + FP)
 <p align="center">
 Recall = TP/(TP + FN)
 <p align="center">
-F<sub>2</sub> = 5(Precision)(Recall)/4(Precision+Recall)
+F<sub>2</sub> = 5(Precision)(Recall)/(4(Precision)+Recall)
 
 The definition of true positive (TP), false positive (FP), and false negative (FN) are described in the table below:
 
