@@ -17,6 +17,8 @@ The development toolkit consists of a set of basic utility functions for data pa
    dataset
    baseline
    metric
+   usage
+   submission
    resources
    cite
    faq
