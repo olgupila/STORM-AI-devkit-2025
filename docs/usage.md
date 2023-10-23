@@ -8,7 +8,7 @@ The following subsection guides the challengers in implementing a heuristic-base
    To be updated.
 
 
-## Machine Learning-based Baseline
+## Heuristic-based Baseline
 The following subsection guides the challengers in implementing a heuristic-based model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#heuristic-based-approach) for more infomation of this approach.
 .. note::
 
