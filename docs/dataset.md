@@ -12,10 +12,17 @@ The dataset consists of astrometric data over six months at a two-hour temporal 
 
 Each data is accompanied by a list of expert-annotated time-stamped pattern-of-life (PoL) nodes. Each row in the satellite PoL node list begins with a time index of the node, followed by the direction ("EW" for east-west and "NS" for north-south), the node type, and the propulsion type used while in this behavioral mode. The time index refers to the row index of the astrometric data that corresponds to that particular node. The description of each label is provided in the table below.
 
-| Node Label  | Description | Type Label  | Description |
-| ------------- | ------------- | ------------- | ------------- |
-| SS  | Start of the study period  | NK | Not station-keeping |
-| ES  | End of the study period  | CK | Station-keeping using chemical propulsion system |
-| ID  | Initiate drift  | EK | Station-keeping using electric propulsion system |
-| AD  | Adjust drift  | HK | Station-keeping using hybrid propulsion system |
-| IK  | Initiate station-keeping  |   |  |
+| Node Label  | Description | 
+| ------------- | ------------- | 
+| SS  | Start of the study period  | 
+| ES  | End of the study period  | 
+| ID  | Initiate drift  | 
+| AD  | Adjust drift  |
+| IK  | Initiate station-keeping  | 
+
+| Type Label  | Description |
+| ------------- | ------------- |
+| NK | Not station-keeping |
+| CK | Station-keeping using chemical propulsion system |
+| EK | Station-keeping using electric propulsion system |
+| HK | Station-keeping using hybrid propulsion system |
