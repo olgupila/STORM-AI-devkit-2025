@@ -6,12 +6,12 @@
 ______________________________________________________________________
 
 <p align="center">
-  <a href="https://github.com/">Installation</a> •
-  <a href="https://github.com/">SPLID Dataset</a> •
-  <a href="https://github.com/">Baseline</a> <br>
-  <a href="https://github.com/">Metric</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/">Resources</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/">Citation</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/installation.html">Installation</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/dataset.html">SPLID Dataset</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/baseline.html">Baseline</a> <br>
+  <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/resources.html">Resources</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/cite.html">Citation</a> •
   <a href="https://eval.ai/web/challenges/challenge-page/XXXX/overview">Challenge</a>
 </p>
 
