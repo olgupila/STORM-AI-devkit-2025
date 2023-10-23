@@ -5,7 +5,7 @@ Here, the step-by-step instructions to install the devkit is provided.
 If you do not have Python installed, please refer to the anaconda installation instructions [here](https://docs.anaconda.com/free/anaconda/install/index.html). The devkit is tested for Python 3.11 on Ubuntu and Mac OS.
 
 ## Download the Devkit
-Download the devkit using the terminal and move it inside a new folder named "splid-devkit":
+Download the devkit using the terminal and move into the new folder named "splid-devkit" that was automatically created:
 ```
 cd && git clone https://github.com/XXXX/splid-devkit.git && cd splid-devkit
 ```
