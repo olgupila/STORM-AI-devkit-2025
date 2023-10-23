@@ -1,8 +1,24 @@
 # Usage
 In this section, usage of the development toolkit is demonstrated via guided examples.
 
+## Directory Structure
+```
+.
+├── dataset                  # Contains the training dataset
+│   ├── 1.csv                # Time series 1
+│   ├── 2.csv                # Time series 2
+│   └── ...                                     
+├── labels                   # Contains the annotations for the training dataset
+│   ├── 1.csv                # Annotations for time series 1
+│   ├── 2.csv                # Annotations for time series 2
+│   └── ...
+├── outputs                  # Contains intermediate outputs for the helper functions 
+└── example                  # Contains tutorial scripts
+
+```
+
 ## Data Visualization
-The following subsection guides the challengers in implementing a heuristic-based model.
+The following subsection guides the challengers in loading, manipulating, and visualizing the training data and labels.
 
 To be updated.
 
