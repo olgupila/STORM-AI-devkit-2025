@@ -1,4 +1,2 @@
 # Submission Tutorial
-.. note::
-
-   To be updated.
+To be updated.

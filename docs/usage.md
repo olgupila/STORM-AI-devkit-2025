@@ -3,16 +3,14 @@ In this section, usage of the development toolkit is demonstrated via guided exa
 
 ## Data Visualization
 The following subsection guides the challengers in implementing a heuristic-based model.
-.. note::
 
-   To be updated.
+To be updated.
 
 
 ## Heuristic-based Baseline
 The following subsection guides the challengers in implementing a heuristic-based model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#heuristic-based-approach) for more infomation of this approach.
-.. note::
 
-   To be updated.
+To be updated.
 
 ## Machine Learning-based Baseline
 The following subsection guides the challengers in implementing a Random Forest classifier model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#machine-learning-based-approach) for more infomation of this approach.
