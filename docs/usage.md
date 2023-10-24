@@ -16,6 +16,11 @@ In this section, usage of the development toolkit is demonstrated via guided exa
 └── example                  # Contains tutorial scripts
 
 ```
+We will be using JupyterLab for these examples. First navigate to the cloned GitHub `splid-devkit` folder from the terminal and run the following command to launch JupyterLab.
+```
+jupyter lab
+```
+JupyterLab will then open automatically in your browser. The example scripts are located in the `example` folder.
 
 ## Data Visualization
 The following subsection guides the challengers in loading, manipulating, and visualizing the training data and labels.
