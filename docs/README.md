@@ -38,5 +38,11 @@ To get acquainted with the SPLID development toolkit, we recommend following the
 
 ______________________________________________________________________
 
+## Background
+Because most longitudinal positions within the geostationary belt are unstable—small perturbative forces in the near-Earth space environment push and pull objects from their stations—operators regularly command their geosynchronous (GEO) satellites to perform station-keeping maneuvers to maintain a near-fixed position relative to the Earth’s surface. The magnitude, direction, and frequency of station-keeping maneuvers, however, vary alongside GEO satellites’ mission requirements, the constraints of their onboard control systems, and other factors, including their operators’ preferences. When satellite operators choose to change the position of their GEO satellites by performing a longitudinal-shift maneuver, a once rare, but now common occurrence in that orbital regime, they can choose to perform it as they please, with wide observable variations in drift rate, drift time, and Δv expended. Similarly, operators retire their satellites at their own discretion, sometimes leaving them in libration orbits—where they slowly swing past one or both of the geostationary belt’s stable points—but sometimes placing them in higher-altitude graveyard orbits. Operator decisions that affect GEO satellites’ physical positions leave traces in the satellites' historical orbital elements. A GEO satellite’s pattern of life (PoL) summarizes these traces by offering a description of satellites’ unique combinations of behavioral modes—time periods in which they were station-keeping or drifting—separated by nodes during which they changed from one mode to another.
+(Adapted from [Geosynchronous Satellite Behavior Classification via Unsupervised Machine Learning, by Thomas G. Roberts, Haley E. Solera, and Richard Linares.](https://www.researchgate.net/publication/368982563_Geosynchronous_Satellite_Behavior_Classification_via_Unsupervised_Machine_Learning))
+
+______________________________________________________________________
+
 ## Contact us
 Submit an issue to the github repo or email us at ai_challenge@mit.edu.
