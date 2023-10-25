@@ -23,10 +23,7 @@ jupyter lab
 JupyterLab will then open automatically in your browser. The example scripts are located in the `example` folder.
 
 ## Data Visualization
-The following subsection guides the challengers in loading, manipulating, and visualizing the training data and labels.
-
-To be updated.
-
+The data visualization notebook (`data_visualization.ipynb`) guides the challengers in loading, manipulating, and visualizing the training data and labels.
 
 ## Heuristic-based Baseline
 The following subsection guides the challengers in implementing a heuristic-based model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#heuristic-based-approach) for more information about this approach.
@@ -44,7 +41,6 @@ The Preliminaries notebook (`preliminaries.ipynb`) serves as the initial step in
 - `test_ratio`: Proportion of the dataset to be used for testing.
 - `test_ids`: Fixed test object IDs, omits the `test_ratio` parameter if provided.
 - `output_dir`: Directory where the processed data is saved.
-- `add_vcm_cols`: Boolean flag to add specific VCM columns.
 
 ### ML Baseline Model Notebook  
 The ML Baseline Model notebook (`ml_baseline.ipynb`) provides a foundational model using a Random Forest Classifier aimed at node detection. This notebook acts as a quick start guide and establishes a performance baseline for the challenge. It uses a predefined list of features for training the model and employs the `NodeDetectionEvaluator` for performance assessment.
@@ -74,4 +70,4 @@ python evaluation.py --participant=participant.csv --ground_truth=ground_truth.c
 This example assumes you have `participant.csv` and `ground_truth.csv` files in the expected directories, and you want to plot evaluation details for object ID `12345`. If no arguments are provided, the evaluation will be run for the toy datasets.
 
 **Returns**
-The `score` function within the file returns the evaluation metrics as per the challenge guidelines (that is, the F2 and the RMSE). Additionally, the precision and recall are also returned, and, if the `plot_object` parameter is provided, it generates plots for that specific object ID to aid in understanding the evaluation.
+The `score` function within the file returns the evaluation metrics as per the challenge guidelines (that is, the F<sub>2</sub> and the RMSE). Additionally, the precision and recall are also returned, and, if the `plot_object` parameter is provided, it generates plots for that specific object ID to aid in understanding the evaluation.
