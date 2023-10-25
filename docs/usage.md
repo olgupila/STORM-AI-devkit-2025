@@ -1,14 +1,35 @@
 # Usage
 In this section, usage of the development toolkit is demonstrated via guided examples.
 
+## Directory Structure
+```
+.
+├── dataset                  # Contains the training dataset
+│   ├── 1.csv                # Time series 1
+│   ├── 2.csv                # Time series 2
+│   └── ...                                     
+├── labels                   # Contains the annotations for the training dataset
+│   ├── 1.csv                # Annotations for time series 1
+│   ├── 2.csv                # Annotations for time series 2
+│   └── ...
+├── outputs                  # Contains intermediate outputs for the helper functions 
+└── example                  # Contains tutorial scripts
+
+```
+We will be using JupyterLab for these examples. First navigate to the cloned GitHub `splid-devkit` folder from the terminal and run the following command to launch JupyterLab.
+```
+jupyter lab
+```
+JupyterLab will then open automatically in your browser. The example scripts are located in the `example` folder.
+
 ## Data Visualization
-The following subsection guides the challengers in implementing a heuristic-based model.
+The following subsection guides the challengers in loading, manipulating, and visualizing the training data and labels.
 
 To be updated.
 
 
 ## Heuristic-based Baseline
-The following subsection guides the challengers in implementing a heuristic-based model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#heuristic-based-approach) for more infomation of this approach.
+The following subsection guides the challengers in implementing a heuristic-based model. Readers are referred to the [baseline solutions page](https://splid-devkit.readthedocs.io/en/latest/baseline.html#heuristic-based-approach) for more information about this approach.
 
 To be updated.
 
@@ -50,7 +71,7 @@ You can also run the script directly from the command line. For example:
 ```bash
 python evaluation.py --participant=participant.csv --ground_truth=ground_truth.csv --plot_object=12345
 ```
-This example assumes you have a `participant.csv` and `ground_truth.csv` in the expected directories, and you want to plot evaluation details for object ID `12345`. If no arguments are provided, the evaluation will be run for the toy datasets.
+This example assumes you have `participant.csv` and `ground_truth.csv` files in the expected directories, and you want to plot evaluation details for object ID `12345`. If no arguments are provided, the evaluation will be run for the toy datasets.
 
 **Returns**
 The `score` function within the file returns the evaluation metrics as per the challenge guidelines (that is, the F2 and the RMSE). Additionally, the precision and recall are also returned, and, if the `plot_object` parameter is provided, it generates plots for that specific object ID to aid in understanding the evaluation.
