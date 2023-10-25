@@ -33,9 +33,8 @@ To get acquainted with the SPLID development toolkit, we recommend following the
 - <b>Setup Toolkit and Dataset:</b> Follow the step-by-step instructions provided on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html) to set up the devkit and dataset.
 - <b>Tutorials to Get Started:</b> We've prepared tutorials in the [example folder](https://github.com/), each covering essential topics:
     - `data_visualization.ipynb`: This tutorial guides you on loading, manipulating, and visualizing the training data and labels.
-    - `heuristic_baseline_solution.ipynb`: Here, you'll find a tutorial demonstrating the baseline heuristic solution. It explains the heuristic approach, illustrates how performance is measured, and provides visualizations of the results.
-    - `ml_baseline_solution.ipynb`: This tutorial takes you through the development of the baseline machine learning solution. It describes the training workflow, showcases how performance is assessed, and offers visualizations of the results.
-    - `Submission_tutorial.ipynb`: Learn how to generate a valid submission and send it to the evaluation server through this tutorial.
+    - `heuristic_baseline.ipynb`: Here, you'll find a tutorial demonstrating the baseline heuristic solution. It explains the heuristic approach, illustrates how performance is measured, and provides visualizations of the results.
+    - `ml_baseline.ipynb`: This tutorial takes you through the development of the baseline machine learning solution. It describes the training workflow, showcases how performance is assessed, and offers visualizations of the results.
 
 ______________________________________________________________________
 
