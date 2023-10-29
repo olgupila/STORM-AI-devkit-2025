@@ -1,1 +1,0 @@
-.. include:: ../baseline_submissions/README.md

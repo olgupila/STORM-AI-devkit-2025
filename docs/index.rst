@@ -10,15 +10,14 @@ The development toolkit consists of a set of basic utility functions for data pa
 
 .. toctree::
    :hidden:
-   :maxdepth: 2
 
    <self>
    README
    installation
    dataset
+   baseline
    metric
    usage
-   readme_link
    submission
    resources
    cite
