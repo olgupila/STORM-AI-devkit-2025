@@ -5,10 +5,10 @@ import matplotlib.patches as patches
 from sklearn.metrics import mean_squared_error
 import argparse
 from fastcore.all import *
-import utils
+
 
 class NodeDetectionEvaluator:
-    def __init__(self, ground_truth, participant, tolerance):
+    def __init__(self, ground_truth, participant, tolerance=6):
         self.ground_truth = ground_truth.copy()
         self.participant = participant.copy()
         self.tolerance = tolerance
@@ -27,15 +27,15 @@ class NodeDetectionEvaluator:
 
         for gt_idx, gt_row in gt_object.iterrows():
             matching_participant_events = p_object[
-                (p_object['Time Index'] >= gt_row['Time Index'] - self.tolerance) &
-                (p_object['Time Index'] <= gt_row['Time Index'] + self.tolerance) &
+                (p_object['TimeIndex'] >= gt_row['TimeIndex'] - self.tolerance) &
+                (p_object['TimeIndex'] <= gt_row['TimeIndex'] + self.tolerance) &
                 (p_object['Direction'] == gt_row['Direction'])
             ]
 
             if len(matching_participant_events) > 0:
                 p_idx = matching_participant_events.index[0]
                 p_row = matching_participant_events.iloc[0]
-                distance = p_row['Time Index'] - gt_row['Time Index']
+                distance = p_row['TimeIndex'] - gt_row['TimeIndex']
                 if p_row['Node'] == gt_row['Node'] and p_row['Type'] == gt_row['Type']:
                     tp += 1
                     gt_object.loc[gt_idx, 'classification'] = 'TP'
@@ -113,33 +113,33 @@ class NodeDetectionEvaluator:
                             type_label):
         for _, row in ground_truth_type.iterrows():
             label = row['Node'] + '-' + row['Type']
-            ax.scatter(row['Time Index'], 2, color='black')
-            ax.text(row['Time Index'] + 3, 2.05, label, rotation=45)
-            ax.fill_betweenx([1, 2], row['Time Index'] - self.tolerance,
-                             row['Time Index'] + self.tolerance, color='grey',
+            ax.scatter(row['TimeIndex'], 2, color='black')
+            ax.text(row['TimeIndex'] + 3, 2.05, label, rotation=45)
+            ax.fill_betweenx([1, 2], row['TimeIndex'] - self.tolerance,
+                             row['TimeIndex'] + self.tolerance, color='grey',
                              alpha=0.2)
             if row['classification'] == 'TP':
-                ax.text(row['Time Index'] + self.tolerance + .5, 1.5, 
+                ax.text(row['TimeIndex'] + self.tolerance + .5, 1.5, 
                         str(row['distance']), 
                         color='black')
-                ax.plot([row['Time Index'], 
-                         row['Time Index'] + row['distance']], [2, 1], 
+                ax.plot([row['TimeIndex'], 
+                         row['TimeIndex'] + row['distance']], [2, 1], 
                          color='green', linestyle='dashed')
             elif row['classification'] == 'FP':
-                ax.plot([row['Time Index'], 
-                         row['Time Index'] + row['distance']], [2, 1], 
+                ax.plot([row['TimeIndex'], 
+                         row['TimeIndex'] + row['distance']], [2, 1], 
                          color='blue', linestyle='dashed')
             elif row['classification'] == 'FN':
-                ax.plot([row['Time Index'], 
-                         row['Time Index']], [2, 2.2], color='red', 
+                ax.plot([row['TimeIndex'], 
+                         row['TimeIndex']], [2, 2.2], color='red', 
                          linestyle='dashed')
 
         for _, row in participant_type.iterrows():
             label = row['Node'] + '-' + row['Type']
-            ax.scatter(row['Time Index'], 1, color='black')
-            ax.text(row['Time Index'] + 3, 1.05, label, rotation=45)
+            ax.scatter(row['TimeIndex'], 1, color='black')
+            ax.text(row['TimeIndex'] + 3, 1.05, label, rotation=45)
             if row['classification'] == 'FP' and row['matched'] == False:
-                ax.plot([row['Time Index'], row['Time Index']], [1, 0.8], 
+                ax.plot([row['TimeIndex'], row['TimeIndex']], [1, 0.8], 
                         color='blue', linestyle='dashed')
 
         ax.spines['left'].set_color('none')
@@ -151,6 +151,31 @@ class NodeDetectionEvaluator:
         ax.set_title(type_label)
 
 
+def merge_label_files(label_folder):
+    """
+    Merges all label files in a given folder into a single pandas DataFrame. 
+    The filenames must be in the format <ObjectID>.csv, and the object id will
+    be extracted from the filename and added as a column to the DataFrame.
+
+    Args:
+        label_folder (str): The path to the folder containing the label files.
+
+    Returns:
+        pandas.DataFrame: A DataFrame containing the merged label data.
+    """
+    label_data = []
+    label_folder = Path(label_folder).expanduser()
+    for file_path in label_folder.ls():
+        df = pd.read_csv(file_path)
+        oid_s = os.path.basename(file_path).split('.')[0]  # Extract ObjectID from filename
+        df['ObjectID'] = int(oid_s)
+        label_data.append(df)
+
+    label_data = pd.concat(label_data)
+    label_data = label_data[['ObjectID'] + list(label_data.columns[:-1])]
+    return label_data
+
+
 def run_evaluator(participant_path=None, ground_truth_path=None, plot_object=None):
 
     if participant_path is None:
@@ -158,7 +183,7 @@ def run_evaluator(participant_path=None, ground_truth_path=None, plot_object=Non
     else:
         participant_path = Path(participant_path).expanduser()
         if participant_path.is_dir():
-            participant_df = utils.merge_label_files(participant_path)  
+            participant_df = merge_label_files(participant_path)  
         else:
             participant_df = pd.read_csv(participant_path)
     
@@ -167,7 +192,7 @@ def run_evaluator(participant_path=None, ground_truth_path=None, plot_object=Non
     else:
         ground_truth_path = Path(ground_truth_path).expanduser()
         if ground_truth_path.is_dir():
-            ground_truth_df = utils.merge_label_files(ground_truth_path)
+            ground_truth_df = merge_label_files(ground_truth_path)
         else:
             ground_truth_df = pd.read_csv(ground_truth_path)
     
@@ -202,4 +227,4 @@ if __name__ == "__main__":
         parser.add_argument('--plot_object', type=int, required=False,
                     help='Object ID to plot.')
         args = parser.parse_args()
-        run_evaluator(args.ground_truth, args.participant, args.plot_object)
+        run_evaluator(args.ground_truth, args.participant, args.plot)
