@@ -1,4 +1,10 @@
+####################################
+# EXAMPLE IMAGE FOR PYTHON SUBMISSIONS
+####################################
 FROM ubuntu:22.04
+
+# Use this one for submissions that require GPU processing
+#FROM nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
 
 RUN apt-get update && \
     DEBIAN_FRONTEND=noninteractive apt-get install -y python3 python3-pip && \

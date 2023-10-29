@@ -46,3 +46,6 @@ ______________________________________________________________________
 
 ## Contact us
 Submit an issue to the github repo or email us at ai_challenge@mit.edu.
+
+## Acknowledgements
+We'd like to extend our sincere gratitude to EvalAI for hosting this challenge and providing a robust platform. Special thanks to the team behind the [My Seizure Gauge Forecasting Challenge 2022](https://github.com/seermedical/msg-2022), as their detailed documentation was invaluable for the successful setup of our own competition.

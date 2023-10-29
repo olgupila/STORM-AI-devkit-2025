@@ -6,8 +6,8 @@ In this section, usage of the development toolkit is demonstrated via guided exa
 .
 ├── dataset                  
 │   ├── train                # Contains the training dataset
-│   │   ├── 1.csv            # Time series 1
-│   │   ├── 2.csv            # Time series 2
+│   │   ├── 1.csv            # Ephems for object with ID 1
+│   │   ├── 2.csv            # Ephems for object with ID 2
 │   │   └── ...
 ├── train_labels.csv                   # Contains the annotations for the training dataset
 │   
@@ -19,7 +19,7 @@ We will be using JupyterLab for these examples. First navigate to the cloned Git
 ```
 jupyter lab
 ```
-JupyterLab will then open automatically in your browser. The example scripts are located in the `example` folder.
+JupyterLab will then open automatically in your browser. The example submissions are located in the `baseline_submissions` folder.
 
 ## Data Visualization
 The data visualization notebook (`data_visualization.ipynb`) guides the challengers in loading, manipulating, and visualizing the training data and labels.
