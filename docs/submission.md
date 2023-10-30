@@ -48,7 +48,7 @@ It is strongly recomended that you test run your docker container before making 
 To test that your Docker container does the right thing, do the following:
 
 #### 1. Prepare dummy version of the test dataset
-- Download [this zip file] containing small test data (the data used in the warmup phase of the challenge).
+- Download **[TODO: this zip file]** containing small test data (the data used in the warmup phase of the challenge).
 - Extract it somewhere. We will refer to this path as `LOCAL_DATA_DIR`.
 - You should end up with a path that looks like `LOCAL_DATA_DIR/test/`, and directory structure like:
 ```
@@ -103,11 +103,11 @@ Open a terminal and run:
 ```bash
 # WARM-UP PHASE
 # evalai push MY_DOCKER_IMAGE:MY_TAG --phase warmup-2163
-evalai push splid-submission:latest --phase warmup-2163
+evalai push splid-submission:latest --phase mit-warmup-2163
 
 # COMPETITION PHASE
 # evalai push MY_DOCKER_IMAGE:MY_TAG --phase competition-2163
-evalai push splid-submission:latest --phase competition-2163
+evalai push splid-submission:latest --phase mit-competition-2163
 ```
 
 > Note: Make sure you substitute `splid-submission:latest` with the actual docker image name and tag you built.
