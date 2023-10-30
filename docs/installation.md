@@ -28,6 +28,8 @@ Here, the step-by-step instructions to install the devkit is provided.
 - Run `docker --version`
 - Run `docker run hello-world``
 
+## [Optional] Install Nvidia container-toolkit
+If you plan to use GPU power in your submission and you want to try it locally, you will need to install the [nvidia container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 
 ## Install Python
 If you do not have Python installed, please refer to the anaconda installation instructions [here](https://docs.anaconda.com/free/anaconda/install/index.html). The devkit is tested for Python 3.8+ on Ubuntu and Mac OS.
