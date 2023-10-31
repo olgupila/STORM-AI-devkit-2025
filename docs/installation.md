@@ -37,7 +37,7 @@ If you do not have Python installed, please refer to the anaconda installation i
 ## Download the Devkit
 Download the devkit using the terminal and move into the new folder named "splid-devkit" that was automatically created:
 ```
-cd && git clone https://github.com/XXXX/splid-devkit.git && cd splid-devkit
+cd && git clone https://github.com/pengmun/splid-devkit.git && cd splid-devkit
 ```
 The above command will download the files to your home directory. While you can change this to an arbitrary directory, the rest of our tutorials assume that you are using the home directory.
 
@@ -47,5 +47,5 @@ pip install -r requirements.txt
 ```
 
 ## Download the dataset
-The challenge dataset can be downloaded from [here](google drive link). Please store the downloaded dataset into the `~/splid-devkit/dataset folder`. Description of the dataset is available on the [SPLID dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
+The challenge dataset can be downloaded from [here](google drive link). Please store the downloaded dataset into the `~/splid-devkit/dataset` folder. Description of the dataset is available on the [SPLID dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
