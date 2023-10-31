@@ -2,13 +2,16 @@
 # Baseline submissions
 Participants will be submitting their trained algorithm with their  code/workflow to generation predictions into the competition platform, in the programming language they prefer. Here we provide Docker containers and example submissions for common Python and Matlab, but participants are allowed to submit with other custom containers too. 
 
+## Data visualization notebook
+The `data_visualization.ipynb` guides the challengers in loading, manipulating, and visualizing the training data and labels.
+
 ## Code for baseline submission using a Machine learning model
 See the folder `ml_python` to reproduce a working example of a ML-based submission written in Python.
 
 ## Code for baseline submission using a Heuristic-based approach
 See the folder `heuristic_python` to reproduce a working example of a heuristic-based baseline written in Python. Note: no submission example are provided for the heuristic-based approach.
 
-## Evaluation Script
+## Evaluation script
 The `evaluation.py` script provides a standard way to assess the performance of the models submitted for the challenge. It employs metrics and evaluation techniques that are aligned with the challenge's objectives.
 
 The toy datasets `ground_truth_toy.csv` and `participant_toy.csv` serve as simplified, 
