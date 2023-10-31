@@ -3,11 +3,10 @@
 Participants will be submitting their trained algorithm with their  code/workflow to generation predictions into the competition platform, in the programming language they prefer. Here we provide Docker containers and example submissions for common Python and Matlab, but participants are allowed to submit with other custom containers too. 
 
 ## Code for baseline submission using a Machine learning model
-
-See the folder `baseline_submission_ml` to reproduce a working example of a ML-based submission written in Python.
+See the folder `ml_python` to reproduce a working example of a ML-based submission written in Python.
 
 ## Code for baseline submission using a Heuristic-based approach
-[TODO]
+See the folder `heuristic_python` to reproduce a working example of a heuristic-based baseline written in Python. Note: no submission example are provided for the heuristic-based approach.
 
 ## Evaluation Script
 The `evaluation.py` script provides a standard way to assess the performance of the models submitted for the challenge. It employs metrics and evaluation techniques that are aligned with the challenge's objectives.
