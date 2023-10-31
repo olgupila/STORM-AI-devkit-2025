@@ -1,7 +1,7 @@
 # Satellite Pattern-of-Life Identification Challenge Starter Toolkit
 
 ## ML baseline
-The ML Model train notebook `train.ipynb` provides a foundational model using a Random Forest Classifier 
+The ML Model train notebook `ml_baseline.ipynb` provides a foundational model using a Random Forest Classifier 
 aimed at node detection. This notebook acts as a quick start guide and establishes a 
 performance baseline for the challenge. It uses a predefined list of features for 
 training the model.
