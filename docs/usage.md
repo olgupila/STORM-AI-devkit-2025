@@ -6,13 +6,13 @@ In this section, usage of the development toolkit is demonstrated via guided exa
 .
 ├── dataset                  
 │   ├── train                # Contains the training dataset
-│   │   ├── 1.csv            # Ephems for object with ID 1
-│   │   ├── 2.csv            # Ephems for object with ID 2
+│   │   ├── 1.csv            # Time-series data for object with ID 1
+│   │   ├── 2.csv            # Time-series data for object with ID 2
 │   │   └── ...
-├── train_labels.csv                   # Contains the annotations for the training dataset
-│   
-├── outputs                  # Contains intermediate outputs for the helper functions 
-└── example                  # Contains tutorial scripts
+├── labels.csv               # Contains the annotations for the train dataset
+└── baseline_submissions
+    ├── heuristic_python     # Contains the heuristic baseline
+    └── ml_python            # Contains the machine learning baseline
 
 ```
 We will be using JupyterLab for these examples. First navigate to the cloned GitHub `splid-devkit` folder from the terminal and run the following command to launch JupyterLab.
