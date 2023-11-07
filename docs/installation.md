@@ -37,7 +37,7 @@ If you do not have Python installed, please refer to the anaconda installation i
 ## Download the Devkit
 Download the devkit using the terminal and move into the new folder named "splid-devkit" that was automatically created:
 ```
-cd && git clone https://github.com/pengmun/splid-devkit.git && cd splid-devkit
+cd && git clone https://github.com/ARCLab-MIT/splid-devkit.git && cd splid-devkit
 ```
 The above command will download the files to your home directory. While you can change this to an arbitrary directory, the rest of our tutorials assume that you are using the home directory.
 
