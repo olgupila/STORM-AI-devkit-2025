@@ -12,7 +12,7 @@ ______________________________________________________________________
   <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/resources.html">Resources</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/cite.html">Citation</a> •
-  <a href="https://eval.ai/web/challenges/challenge-page/XXXX/overview">Challenge</a>
+  <a href="https://eval.ai/web/challenges/challenge-page/2164/overview">Challenge</a>
 </p>
 
 [![Python](https://img.shields.io/badge/python-%20%203.11-blue.svg)]()
@@ -25,7 +25,7 @@ ______________________________________________________________________
 ## Getting started
 You can find installation instructions for the development toolkit (devkit) on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html), and detailed information about the dataset is available on the [dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
-For those interested in participating in the satellite pattern-of-life identification challenge, please refer to the competition [landing page](https://eval.ai/web/challenges/challenge-page/XXXX/overview) for complete details.
+For those interested in participating in the satellite pattern-of-life identification challenge, please refer to the competition [landing page](https://eval.ai/web/challenges/challenge-page/2164/overview) for complete details.
 
 To get acquainted with the SPLID development toolkit, we recommend following these steps:
 - <b>Read the SPLID Paper:</b> Start by reading the paper on the [Satellite Pattern-of-Life Characterization Dataset and Benchmark Suite](https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite).
