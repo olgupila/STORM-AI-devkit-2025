@@ -114,7 +114,7 @@ evalai push splid-submission:latest --phase mit-competition-2163
 
 This will upload your docker image to our remote servers, and trigger an evaluation. Note, the first time you submit, it might take a while to upload. Subsequent uploads will be quicker if the base layers of your docker container are the same as the previous submission.
 
-You can now monitor the progress of the submission in the [my submissions](https://eval.ai/web/challenges/challenge-page/2163/my-submission) section in the competition dashboard.
+You can now monitor the progress of the submission in the [my submissions](https://eval.ai/web/challenges/challenge-page/2164/my-submission) section in the competition dashboard.
 
 
 ## [Optional] Create your own Docker image for the submission
