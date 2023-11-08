@@ -3,7 +3,7 @@
 # -- Project information
 
 project = 'splid-devkit'
-copyright = '2023, Peng Mun Siew'
+copyright = '2023, MIT ARCLab'
 author = 'Peng Mun Siew'
 
 release = '0.1'
