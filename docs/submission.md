@@ -40,7 +40,12 @@ ObjectID,TimeIndex,Direction,Node,Type
 ```
 
 ### Computational restrictions for submissions
-TBD
+The submission you make must take the following computational resource limits into consideration and not exceed them.
+
+- **CPU** : 4 cpu cores will be available to you.
+- **RAM** : Approx 16Gb of memory will be available.
+- **GPU** : 1 GPU, with 16Gb of memory will be available.
+- **Run Time** : Your submission should run within approx 10 minutes or less. If submissions take too long to run, they will fail.
 
 ### Test the submission locally
 It is strongly recomended that you test run your docker container before making a submission. This will allow you catch any potential bugs you may have in your code.
