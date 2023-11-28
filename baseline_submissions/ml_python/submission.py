@@ -13,7 +13,7 @@ start_time = time.time()
 # INPUT/OUTPUT PATHS WITHIN THE DOCKER CONTAINER
 TRAINED_MODEL_DIR = Path('/trained_model/')
 TEST_DATA_DIR = Path('/dataset/test/')
-TEST_PREDS_FP = Path('/predictions/test_predictions.csv')
+TEST_PREDS_FP = Path('/submission/submission.csv')
 
 
 # Rest of configuration, specific to this submission

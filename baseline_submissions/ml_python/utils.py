@@ -4,7 +4,11 @@ from fastcore.basics import Path
 # Function to prepare the data in a tabular format
 def tabularize_data(data_dir, feature_cols, ground_truth=None, lag_steps=1, fill_na=True):
     merged_data = pd.DataFrame()
-    for data_file in Path(data_dir).glob('*.csv'):
+    test_data = Path(data_dir).glob('*.csv')
+    # Check if test_data is empty
+    if not test_data:
+        raise ValueError(f'No csv files found in {data_dir}')
+    for data_file in test_data:
         data_df = pd.read_csv(data_file)
         data_df['ObjectID'] = int(data_file.stem)
         data_df['TimeIndex'] = range(len(data_df))
