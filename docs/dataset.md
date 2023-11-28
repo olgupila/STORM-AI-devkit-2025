@@ -1,7 +1,7 @@
 # Satellite Pattern-of-Life Identification Dataset (SPLID)
 
 ## Download the Dataset
-The challenge dataset can be downloaded from [here](google drive link).
+The challenge dataset can be downloaded from <a href="https://www.dropbox.com/scl/fo/jt5h1f82iycjb8elybmlz/h?rlkey=bjcmny486ddf7m0j7b9uok9ww&dl=0">here</a>.
 
 ## Dataset Description
 SPLID consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains 500 simulated satellite trajectories, each operating under different mission objectives and equipped with different propulsion capabilities. The trajectories are generated using a high-fidelity astrodynamics simulator and are designed to represent a diverse set of satellite behaviors. The private evaluation dataset contains additional data that will be used to evaluate the performance of the participants' models. This private evaluation dataset consists of both simulated satellite trajectories and historical satellite trajectories generated from VCM data and high-accuracy ephemerides provided by satellite operators.
