@@ -17,11 +17,25 @@ TEST_PREDS_FP = Path('/submission/submission.csv')
 
 
 # Rest of configuration, specific to this submission
-feature_cols = ['Eccentricity', 'Semimajor axis (km)', 'Inclination (deg)', 
-                'RAAN (deg)', 'Argument of periapsis (deg)', 'True anomaly (deg)', 
-                'Latitude (deg)', 'Longitude (deg)', 'Altitude (km)', 'J2k X (km)', 
-                'J2k Y (km)', 'J2k Z (km)', 'J2k Vx (km/s)', 'J2k Vy (km/s)', 
-                'J2k Vz (km/s)']
+feature_cols = [
+    "Eccentricity",
+    "Semimajor Axis (m)",
+    "Inclination (deg)",
+    "RAAN (deg)",
+    "Argument of Periapsis (deg)",
+    "Mean Anomaly (deg)",
+    "True Anomaly (deg)",
+    "Latitude (deg)",
+    "Longitude (deg)",
+    "Altitude (m)",
+    "X (m)",
+    "Y (m)",
+    "Z (m)",
+    "Vx (m/s)",
+    "Vy (m/s)",
+    "Vz (m/s)"
+]
+
 lag_steps = 5
 
 test_data, updated_feature_cols = utils.tabularize_data(
