@@ -123,7 +123,7 @@ You can now monitor the progress of the submission in the [my submissions](https
 
 
 ## [Optional] Create your own Docker image for the submission
-If you want to create your own Docker image for your submission instead of using one of the two provided for [Python](../baseline_submissions/ml_python/Dockerfile) and [Matlab](TBD) submissions (for example, because you're using a different language), here are some considerations to take into account.
+If you want to create your own Docker image for your submission instead of using the provided [Python](../baseline_submissions/ml_python/Dockerfile) submissions (for example, because you're using a different language), here are some considerations to take into account.
 
 ### GPU compatibility
 If you want to make use of the GPU resources that are on the cloud infrastructure, then you should use a docker image that contains Nvidia cuda, and cudnn drivers. for example, `nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04`. 
