@@ -23,7 +23,7 @@ ______________________________________________________________________
 <div align="left">
   
 ## Getting started
-You can find installation instructions for the development toolkit (devkit) on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html), and detailed information about the dataset is available on the [dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
+The challenge dataset can be downloaded from <a href="https://www.dropbox.com/scl/fo/jt5h1f82iycjb8elybmlz/h?rlkey=bjcmny486ddf7m0j7b9uok9ww&dl=0">here</a>. You can find installation instructions for the development toolkit (devkit) on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html), and detailed information about the dataset is available on the [dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
 For those interested in participating in the satellite pattern-of-life identification challenge, please refer to the competition [landing page](https://eval.ai/web/challenges/challenge-page/2164/overview) for complete details.
 
