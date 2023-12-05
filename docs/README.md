@@ -8,8 +8,9 @@ ______________________________________________________________________
 <p align="center">
   <a href="https://splid-devkit.readthedocs.io/en/latest/installation.html">Installation</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/dataset.html">SPLID Dataset</a> •
-  <a href="https://github.com/ARCLab-MIT/splid-devkit">Development Kit</a> <br>
-  <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> •
+  <a href="https://github.com/ARCLab-MIT/splid-devkit">Development Kit</a> •
+  <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> <br>
+  <a href="https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite">Paper</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/resources.html">Resources</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/README.html">Documentation</a> •
   <a href="https://eval.ai/web/challenges/challenge-page/2164/overview">Challenge</a>
