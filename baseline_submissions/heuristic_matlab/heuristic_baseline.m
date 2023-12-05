@@ -1,11 +1,31 @@
+% heuristic_baseline - This Matlab code will guide the reader on
+% implementing the Satellite Node Identification and Classification Tool
+% (SNICT) as a heuristic method to identify and classify the satellite
+% Pattern-of-Life nodes.
+%
+% Based on the Python code by Liz Solera, 2023
+% Solera, H. E., T. G. Roberts, and R. Linares. "Geosynchronous Satellite 
+% Pattern of Life Node Detection and Classification." 9th Space Traffic 
+% Management Conference, Austin, TX. 2023.
+%
+% Copyright (C) 2023 by Peng Mun Siew
+%
+% This code is licensed under the MIT License.
+%
+% Author: Peng Mun Siew
+% Massachusetts Institute of Technology, Dept. of Aeronautics and Astronautics
+% email: siewpengmun@yahoo.com
+% Dec 2023; Last revision: 5-Dec-2023
+
 clearvars
 clc
 close all
 
+%%
+% We will be using custom classes to store the node information
 detected = index_dict();
 filtered = index_dict();
 
-%%
 % Initialize datalist as an empty cell array
 datalist = {};
 
@@ -29,6 +49,11 @@ data_path = datalist{idx_data};
 data = readtable(data_path);
 
 %%
+% The SNICT uses longitudinal and inclination information to detect and
+% characterize the changes in a satellite's behavioral mode. The
+% longitudinal and inclination information are first extracted from the 
+% data.
+
 % Read the ObjectID from the filename
 satcat = data_path(end-6:end-4);
 
@@ -41,6 +66,9 @@ starttime = datetime("2023-01-01 00:00:00", "Format", "yyyy-MM-dd HH:mm:ss", "Ti
 endtime = datetime("2023-07-01 00:00:00", "Format", "yyyy-MM-dd HH:mm:ss", "TimeZone", "UTC");
 
 %%
+% We will first identify possible East-West Pattern-of-Life nodes by
+% analyzing the changes in longitudinal values.
+
 % Get std for longitude over a 24 hours window
 lon_std = zeros(size(data.Longitude_deg_));
 nodes = [];
@@ -112,6 +140,9 @@ for i = steps_per_day+1:length(lon_std)-steps_per_day
 end
 
 %%
+% Next, we will filter the East-West nodes and merge nearby nodes with the
+% same label base on their heuristics.
+
 toggle = true;
 nodes{end+1} = ssEW;
 
@@ -166,7 +197,6 @@ if length(detected.times.IK) == 1
     end
 end
 
-%%
 for i = 1:length(detected.times.IK)-1
     if toggle
         if (starttime + hours((detected.indices(i+1, 1)-1)*2) - detected.times.IK(i)) > hours(36)
@@ -286,6 +316,9 @@ for i = 1:length(detected.times.IK)-1
 end
 [nodes,filtered ] = add_node(es, nodes, longitudes, inclinations, filtered);
 %%
+% Identify possible North-South Pattern-of-Life nodes by analyzing the
+% changes in the inclination values.
+
 ssNS = Node(satcat, starttime, [], [], [], 0, [], 'SS', 'NS', [], [], []);
 for j = 1:size(filtered.indices,1)
     indices = filtered.indices(j, :);
@@ -339,8 +372,11 @@ for j = 1:size(filtered.indices,1)
     end
 end
 nodes{end+1} = ssNS;
-% nodes = sort_nodes(nodes);
+
 %%
+% Lastly, we will tidy up the output of the SNICT algorithm to match the
+% SPLID data format.
+
 ObjectID = [];
 TimeIndex = [];
 Direction = [];
@@ -363,4 +399,5 @@ disp(prediction);
 
 %%
 % Save the prediction table to a CSV file
+
 writetable(prediction, 'prediction.csv');
