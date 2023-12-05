@@ -12,7 +12,10 @@ ______________________________________________________________________
   <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/resources.html">Resources</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/cite.html">Citation</a> •
-  <a href="https://eval.ai/web/challenges/challenge-page/2164/overview">Challenge</a>
+  <a href="https://eval.ai/web/challenges/challenge-page/2164/overview">Challenge</a><br>
+  <a href="https://splid-devkit.readthedocs.io/en/latest/README.html">Documentation</a> •
+  <a href="https://github.com/ARCLab-MIT/splid-devkit">Development Kit</a>
+  
 </p>
 
 [![Python](https://img.shields.io/badge/python-%20%203.11-blue.svg)]()
