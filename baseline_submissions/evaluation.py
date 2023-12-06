@@ -3,21 +3,21 @@ import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
 from sklearn.metrics import mean_squared_error
-import argparse
 from fastcore.all import *
+import argparse
 
 
 class NodeDetectionEvaluator:
-    def __init__(self, ground_truth, participant, tolerance=6):
+    def __init__(self, ground_truth, participant, tolerance):
         self.ground_truth = ground_truth.copy()
         self.participant = participant.copy()
         self.tolerance = tolerance
         
     def evaluate(self, object_id):
-        gt_object = self.ground_truth[self.ground_truth['ObjectID'] == object_id & \
-                                      self.ground_truth['Direction'] != 'ES'].copy()
-        p_object = self.participant[self.participant['ObjectID'] == object_id & \
-                                    self.participant['Direction'] != 'ES'].copy()
+        gt_object = self.ground_truth[(self.ground_truth['ObjectID'] == object_id) & \
+                          (self.ground_truth['Direction'] != 'ES')].copy()
+        p_object = self.participant[(self.participant['ObjectID'] == object_id) & \
+                                    (self.participant['Direction'] != 'ES')].copy()
         p_object['matched'] = False
         p_object['classification'] = None
         p_object['distance'] = None
@@ -78,9 +78,12 @@ class NodeDetectionEvaluator:
                 p_object[p_object['classification'] == 'TP']['distance'].tolist()
             )
 
-        precision = total_tp / (total_tp + total_fp)
-        recall = total_tp / (total_tp + total_fn)
-        f2 = (5 * total_tp) / (5 * total_tp + 4 * total_fn + total_fp)
+        precision = total_tp / (total_tp + total_fp) \
+            if (total_tp + total_fp) != 0 else 0
+        recall = total_tp / (total_tp + total_fn) \
+            if (total_tp + total_fn) != 0 else 0
+        f2 = (5 * total_tp) / (5 * total_tp + 4 * total_fn + total_fp) \
+            if (5 * total_tp + 4 * total_fn + total_fp) != 0 else 0
         rmse = np.sqrt((sum(d ** 2 for d in total_distances) / len(total_distances))) if total_distances else 0
 
         return precision, recall, f2, rmse
@@ -97,7 +100,7 @@ class NodeDetectionEvaluator:
         participant_NS = p_object[p_object['Direction'] == 'NS']
         self._plot_type_timeline(ground_truth_EW, participant_EW, ax1, 'EW')
         self._plot_type_timeline(ground_truth_NS, participant_NS, ax2, 'NS')
-        plt.xlabel('Time Index')
+        plt.xlabel('TimeIndex')
         title_info = f"Object {object_id}: TPs={tp}, FPs={fp}, FNs={fn}"
         fig.suptitle(title_info, fontsize=10)
         plt.tight_layout(rect=[0, 0.08, 1, 0.96])
@@ -178,7 +181,7 @@ def merge_label_files(label_folder):
     return label_data
 
 
-def run_evaluator(participant_path=None, ground_truth_path=None, plot_object=None):
+def run_evaluator(ground_truth_path=None, participant_path=None, plot_object=None):
 
     if participant_path is None:
         participant_df = pd.read_csv('participant_toy.csv')
