@@ -4,4 +4,4 @@
 # perform predictions.
 pandas
 fastcore
-scikit-learn
+scikit-learn==1.3.2

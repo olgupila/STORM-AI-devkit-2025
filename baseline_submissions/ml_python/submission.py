@@ -59,7 +59,6 @@ test_data['Predicted_NS'] = le_NS.inverse_transform(
 
 # Print the first few rows of the test data with predictions for both EW and NS
 test_results = utils.convert_classifier_output(test_data)
-print(test_results.head())
 
 # Save the test results to a csv file to be submitted to the challenge
 test_results.to_csv(TEST_PREDS_FP, index=False)

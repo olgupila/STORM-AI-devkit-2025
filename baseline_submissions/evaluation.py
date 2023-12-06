@@ -14,8 +14,10 @@ class NodeDetectionEvaluator:
         self.tolerance = tolerance
         
     def evaluate(self, object_id):
-        gt_object = self.ground_truth[self.ground_truth['ObjectID'] == object_id].copy()
-        p_object = self.participant[self.participant['ObjectID'] == object_id].copy()
+        gt_object = self.ground_truth[self.ground_truth['ObjectID'] == object_id & \
+                                      self.ground_truth['Direction'] != 'ES'].copy()
+        p_object = self.participant[self.participant['ObjectID'] == object_id & \
+                                    self.participant['Direction'] != 'ES'].copy()
         p_object['matched'] = False
         p_object['classification'] = None
         p_object['distance'] = None
