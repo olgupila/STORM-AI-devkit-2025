@@ -62,3 +62,4 @@ test_results = utils.convert_classifier_output(test_data)
 
 # Save the test results to a csv file to be submitted to the challenge
 test_results.to_csv(TEST_PREDS_FP, index=False)
+print("Saved predictions to: {}".format(TEST_PREDS_FP))

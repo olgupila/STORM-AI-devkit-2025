@@ -40,12 +40,19 @@ ObjectID,TimeIndex,Direction,Node,Type
 ```
 
 ### Computational restrictions for submissions
+#### Hardware
 The submission you make must take the following computational resource limits into consideration and not exceed them.
 
 - **CPU** : 4 cpu cores will be available to you.
 - **RAM** : Approx 16Gb of memory will be available.
 - **GPU** : 1 GPU, with 16Gb of memory will be available.
 - **Run Time** : Your submission should run within approx 10 minutes or less. If submissions take too long to run, they will fail.
+
+#### Software
+For maximum compatibility in Python-based submissions, it is recomended to use `python3.10``, and pin your python libraries to the following suggested versions (but only if you actually need those libraries).
+```
+scikit-learn==1.3.2
+```
 
 ### Test the submission locally
 It is strongly recomended that you test run your docker container before making a submission. This will allow you catch any potential bugs you may have in your code.
