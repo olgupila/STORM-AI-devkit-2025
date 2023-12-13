@@ -232,4 +232,4 @@ if __name__ == "__main__":
         parser.add_argument('--plot_object', type=int, required=False,
                     help='Object ID to plot.')
         args = parser.parse_args()
-        run_evaluator(args.ground_truth, args.participant, args.plot)
+        run_evaluator(args.ground_truth, args.participant, args.plot_object)
