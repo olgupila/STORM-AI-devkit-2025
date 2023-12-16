@@ -16,7 +16,7 @@ Once you run the notebook and the model is trained, you can follow the following
 
 - Test submission docker on a toy test dataset:
 ```
-docker run -v [[TOY_TEST_DATASET_DIR]]:/dataset -v $(pwd)/predictions:/predictions splid-submission`
+docker run -v [[TOY_TEST_DATASET_DIR]]:/dataset -v $(pwd)/submission:/submission splid-submission`
 ```
 
 > Note: If your submission needs the use of GPUs to generate

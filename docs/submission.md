@@ -20,7 +20,7 @@ The data, as for the training set, is stored in our remote server as separate fi
 ### Required outputs
 Your submission has to generate predictions, and save them as a `.csv` file.
 
-- The csv file should be saved to `/predictions/test_predictions.csv` in the docker container. Note that `/submission` is an absolute directory path, mounted on the root directory of the container. It is not a path relative to the current working directory.
+- The csv file should be saved to `/submission/submission.csv` in the docker container. Note that `/submission` is an absolute directory path, mounted on the root directory of the container. It is not a path relative to the current working directory.
 - The output `csv` file shoud have four columns:
     - `ObjectID`
     - `TimeIndex`: Relative to the first observation of the object, i.e., row number in the ephems table. Starts in `0`.
@@ -114,12 +114,12 @@ Open a terminal and run:
 
 ```bash
 # WARM-UP PHASE
-# evalai push MY_DOCKER_IMAGE:MY_TAG --phase warmup-2163
-evalai push splid-submission:latest --phase mit-warmup-2163
+# evalai push MY_DOCKER_IMAGE:MY_TAG --phase warmup-2164
+evalai push splid-submission:latest --phase mit-warmup-2164
 
 # COMPETITION PHASE
-# evalai push MY_DOCKER_IMAGE:MY_TAG --phase competition-2163
-evalai push splid-submission:latest --phase mit-competition-2163
+# evalai push MY_DOCKER_IMAGE:MY_TAG --phase competition-2164
+evalai push splid-submission:latest --phase mit-competition-2164
 ```
 
 > Note: Make sure you substitute `splid-submission:latest` with the actual docker image name and tag you built.
