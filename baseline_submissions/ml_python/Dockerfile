@@ -20,5 +20,6 @@ WORKDIR /app
 # COPY WHATEVER OTHER SCRIPTS YOU MAY NEED
 COPY trained_model /trained_model
 COPY submission.py utils.py ./
-# SPECIFY THE ENTRYPOINT SCRIPT
-CMD ["python", "-u", "submission.py"]
+ 
+ # SPECIFY THE ENTRYPOINT SCRIPT
+CMD python submission.py

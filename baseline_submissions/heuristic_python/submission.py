@@ -13,6 +13,7 @@ import os
 from node import Node
 from datetime import datetime, timedelta
 from pathlib import Path
+import time
 
 # INPUT/OUTPUT PATHS WITHIN THE DOCKER CONTAINER
 TEST_DATA_DIR = Path('/dataset/test/')
@@ -62,7 +63,6 @@ for idx_data in range(len(datalist)):
     filename = data_path.split('/')[-1]
     
     satcat=int(filename.split('.')[0])
-    print(satcat)
     
     # Extracting longitudinal and inclination information from the pandas dataframe
     longitudes = data["Longitude (deg)"]
@@ -485,3 +485,4 @@ prediction = pd.concat(frames)
 # Save the prediction into a csv file 
 prediction.to_csv(TEST_PREDS_FP, index=False)  
 print("Saved predictions to: {}".format(TEST_PREDS_FP))
+time.sleep(360) # TEMPORARY FIX TO OVERCOME EVALAI BUG

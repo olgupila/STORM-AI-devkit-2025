@@ -20,4 +20,4 @@ WORKDIR /app
 # COPY WHATEVER OTHER SCRIPTS YOU MAY NEED
 COPY submission.py node.py ./
 # SPECIFY THE ENTRYPOINT SCRIPT
-CMD ["python", "-u", "submission.py"]
+CMD python submission.py
