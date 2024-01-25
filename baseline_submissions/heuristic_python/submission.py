@@ -14,6 +14,7 @@ from node import Node
 from datetime import datetime, timedelta
 from pathlib import Path
 import time
+import sys
 
 # INPUT/OUTPUT PATHS WITHIN THE DOCKER CONTAINER
 TEST_DATA_DIR = Path('/dataset/test/')
@@ -395,8 +396,8 @@ for idx_data in range(len(datalist)):
         elif (rate < XIPS_inc_per_day):
             nodes.append(Node(
                 satcat=satcat,
-                t=times[0],
-                index=dexs[0],
+                t=starttime+timedelta(hours=indices[1]*2),
+                index=indices[1],
                 ntype="IK",
                 signal="NS",
                 mtype=filtered.modes.SK[j]
@@ -420,13 +421,13 @@ for idx_data in range(len(datalist)):
                 if np.abs(dt[i])> 5.5e-7:
                     times.append(starttime+timedelta(hours=float(t[i])))
                     dexs.append(i+indices[0])
-                    if (np.abs(np.mean(inc[0:i])-np.mean(inc[i:len(inc)]))/np.std(inc[0:i]))/prev < 1.0:
+                    if (np.abs(np.mean(inc[0:i])-np.mean(inc[i:len(inc)]))/(np.std(inc[0:i])+sys.float_info.epsilon))/prev < 1.0:
                         if first and len(times)==2:
                             ssNS.mtype = filtered.modes.SK[0]
                             first = False
                     elif len(times)==2:
                         first = False
-                    prev = np.abs(np.mean(inc[0:i])-np.mean(inc[i:len(inc)]))/np.std(inc[0:i])
+                    prev = np.abs(np.mean(inc[0:i])-np.mean(inc[i:len(inc)]))/(np.std(inc[0:i])+sys.float_info.epsilon)
 
             if len(times)>0:
                 nodes.append(Node(

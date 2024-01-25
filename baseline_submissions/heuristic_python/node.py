@@ -9,6 +9,7 @@ Required Packages:\n
 
 from datetime import datetime, timedelta
 import numpy as np
+import sys
 
 class Node:
     def __init__(self,
@@ -65,7 +66,7 @@ class Node:
         self.mode_lons = lons[self.index:self.next_index]
         self.mode_incs = incs[self.index:self.next_index]
         EW_db = np.max(self.mode_lons) - np.min(self.mode_lons)
-        EW_sd = np.std(self.mode_lons)
+        EW_sd = np.std(self.mode_lons)+sys.float_info.epsilon
         EW = (EW_db-EW_sd)/EW_sd
         self.NS_std = np.std(incs)
         if self.type=="ID":
