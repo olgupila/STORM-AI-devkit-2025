@@ -47,5 +47,5 @@ pip install -r requirements.txt
 ```
 
 ## Download the dataset
-The challenge dataset can be downloaded from [here](google drive link). Please store the downloaded dataset into the `~/splid-devkit/dataset` folder. Description of the dataset is available on the [SPLID dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
+The challenge dataset can be downloaded from <a href="https://www.dropbox.com/scl/fo/jt5h1f82iycjb8elybmlz/h?rlkey=bjcmny486ddf7m0j7b9uok9ww&dl=0">here</a>. Please store the downloaded dataset into the `~/splid-devkit/dataset` folder. Description of the dataset is available on the [SPLID dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
