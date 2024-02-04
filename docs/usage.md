@@ -9,7 +9,7 @@ In this section, usage of the development toolkit is demonstrated via guided exa
 │   │   ├── 1.csv            # Time-series data for object with ID 1
 │   │   ├── 2.csv            # Time-series data for object with ID 2
 │   │   └── ...
-├── labels.csv               # Contains the annotations for the train dataset
+│   └── train_labels.csv           # Contains the annotations for the train dataset
 └── baseline_submissions
     ├── heuristic_python     # Contains the heuristic baseline
     └── ml_python            # Contains the machine learning baseline
