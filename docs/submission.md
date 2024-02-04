@@ -60,8 +60,8 @@ It is strongly recomended that you test run your docker container before making 
 To test that your Docker container does the right thing, do the following:
 
 #### 1. Prepare dummy version of the test dataset
-- Download **[TODO: this zip file]** containing small test data (the data used in the warmup phase of the challenge).
-- Extract it somewhere. We will refer to this path as `LOCAL_DATA_DIR`.
+- Download [this folder](https://www.dropbox.com/scl/fo/e32ku4jr6b57sn3lrr3uu/h?rlkey=tl2074hq994bgpyiv6galr2q1&dl=0) containing small test data (the data used in the warmup phase of the challenge).
+- Move it somewhere. We will refer to this path as `LOCAL_DATA_DIR`.
 - You should end up with a path that looks like `LOCAL_DATA_DIR/test/`, and directory structure like:
 ```
 LOCAL_DATA_DIR
