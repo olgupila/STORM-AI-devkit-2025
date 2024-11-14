@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'splid-devkit'
-copyright = '2023, MIT ARCLab'
-author = 'Peng Mun Siew'
+project = '2025-aichallenge-devkit'
+copyright = '2024, MIT ARCLab'
+author = 'Edenna Chen'
 
 release = '0.1'
 version = '0.1.0'
