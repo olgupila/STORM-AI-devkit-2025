@@ -3,31 +3,44 @@
 ## Download the Challenge Dataset
 The full challenge problem dataset will be made available to participants on December 16, 2024.
 
+Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
+
+Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
+
 ## Challenge Dataset Description
-SADSAW consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains the measured atmospheric density along the trajectories of multiple satellites, each of the satellites operating with different mission objectives and equipped with different propulsion capabilities. The astronometric data is provided at a minimum hourly temporal resolution, and consists of the orbital elements, geographic positions, and atmospheric density measures of satellites 
 
-In addition, the public challenge dataset contains collected information on amagnetic field, plasma, indices, particles, and several derived parameters provided by the NASA Goddard Space Flight Center. This information gives insight into atmospheric conditions 
+SADSAW consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains astrometric data and space weather data. 
 
-Algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged.
+# Astrometric Data
+The astrometric data contains the measured atmospheric density along the trajectories of multiple satellites, each of the satellites operating with different mission objectives and equipped with different propulsion capabilities. The data is provided at a minimum hourly temporal resolution, and consists of the orbital elements, geographic positions, and atmospheric density measures of satellites. The figure below shows a snapshot of example challenge data for a single satellite.
 
-The figure below shows a snapshot of example challenge data for a single satellite.
-
+TODO: Replace image
 ![alt text](example_data.png)
 
-Each data is accompanied by a list of expert-annotated time-stamped pattern-of-life (PoL) nodes. Each row in the satellite PoL node list begins with a time index of the node, followed by the direction ("EW" for east-west and "NS" for north-south), the node type, and the propulsion type used while in this behavioral mode. The time index refers to the row index of the astrometric data that corresponds to that particular node. The description of each label is provided in the table below.
+A short description of each column header and description is provided below: 
 
-| Node Label  | Description | 
+TODO: Fix descriptions
+| Column Header  | Description | 
 | ------------- | ------------- | 
-| SS  | Start of the study period  | 
-| ES  | End of the study period  | 
-| ID  | Initiate drift  | 
-| AD  | Adjust drift  |
-| IK  | Initiate station-keeping  | 
+| time  | Start of the study period  | 
+| density  | End of the study period  | 
+| density_orbitmean  | Initiate drift  | 
+| validity_flag  | Adjust drift  |
+| altitude  | Initiate station-keeping  | 
+| latitude  | Initiate station-keeping  | 
+| longitude  | Initiate station-keeping  |
 
+
+In addition, the public challenge dataset contains collected information on amagnetic field, plasma, indices, particles, and several derived parameters provided by the NASA Goddard Space Flight Center. This information gives insight into atmospheric conditions. The figure below shows a snapshot of example challenge space weather data.
+
+TODO: Replace image
+![alt text](example_data.png)
+
+TODO: fix headers, description-- insert OMNI data headers here
 | Type Label  | Description |
 | ------------- | ------------- |
-| NK | Not station-keeping |
-| CK | Station-keeping using chemical propulsion system |
+| xrsa | Not station-keeping |
+| xrsb | Station-keeping using chemical propulsion system |
 | EK | Station-keeping using electric propulsion system |
 | HK | Station-keeping using hybrid propulsion system |
 

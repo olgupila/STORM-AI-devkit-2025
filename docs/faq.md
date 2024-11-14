@@ -1,2 +1,2 @@
 # Frequently Asked Questions
-To be updated.
+This section will be updated as the competition progresses.
