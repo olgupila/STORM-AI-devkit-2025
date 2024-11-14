@@ -11,7 +11,7 @@ Also note that since these datasets are collected from real spacecraft, there ma
 
 SADSAW consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains astrometric data and space weather data. 
 
-# Astrometric Data
+### Astrometric Data
 The astrometric data contains the measured atmospheric density along the trajectories of multiple satellites, each of the satellites operating with different mission objectives and equipped with different propulsion capabilities. The data is provided at a minimum hourly temporal resolution, and consists of the orbital elements, geographic positions, and atmospheric density measures of satellites. The figure below shows a snapshot of example challenge data for a single satellite.
 
 TODO: Replace image
@@ -30,6 +30,8 @@ TODO: Fix descriptions
 | latitude  | Initiate station-keeping  | 
 | longitude  | Initiate station-keeping  |
 
+
+### Space Weather Data
 
 In addition, the public challenge dataset contains collected information on amagnetic field, plasma, indices, particles, and several derived parameters provided by the NASA Goddard Space Flight Center. This information gives insight into atmospheric conditions. The figure below shows a snapshot of example challenge space weather data.
 

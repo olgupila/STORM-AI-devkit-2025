@@ -47,19 +47,20 @@ Because most longitudinal positions within the geostationary belt are unstableâ€
 ______________________________________________________________________
 
 ## Citation
-Please use the following citation when referencing the dataset and [challenge problem](https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite):
+Please use the following citation when referencing the dataset, challenge problem, and [related models](https://doi.org/10.48550/arXiv.2310.16912):
 ```
-@inproceedings{splid, 
-  title={AI SSA challenge problem: satellite pattern-of-life characterization dataset and benchmark suite},
-  author={Siew, Peng Mun and Solera, Haley E and Roberts, Thomas G and Jang, Daniel and Rodriguez-Fernandez, Victor and How, Jonathan P and Linares, Richard},
-  booktitle={Proceedings of the 2023 Advanced Maui Optical and Space Surveillance Technologies Conference (AMOS), Wailea Beach Resort, Maui, HI, USA},
-  year=2023
+@article{Briden2023,
+  year = {2023},
+  month = Sept,
+  author = {Julia Briden and Peng Mun Siew and Victor Rodriguez-Fernandez and Richard Linares},
+  title = {Transformer-based Atmospheric Density Forecasting},
+  journal = {Advanced Maui Optical and Space Surveillance (AMOS) Technologies Conference},
+  note = {Free preprint available at [https://arxiv.org/abs/2310.16912](https://arxiv.org/abs/2310.16912)}
 }
 ```
 ______________________________________________________________________
 
 ## Contact us
-Submit an issue to the github repo or email us at ai_challenge@mit.edu.
 
-## Acknowledgements
-We'd like to extend our sincere gratitude to EvalAI for hosting this challenge and providing a robust platform. Special thanks to the team behind the [My Seizure Gauge Forecasting Challenge 2022](https://github.com/seermedical/msg-2022), as their detailed documentation was invaluable for the successful setup of our own competition.
+TODO: fix 
+Submit an issue to the github repo or email us at ai_challenge@mit.edu.
