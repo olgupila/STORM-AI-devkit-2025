@@ -1,6 +1,7 @@
 
+<!--
 # Baseline submissions
-Participants will be submitting their trained algorithm with their  code/workflow to generation predictions into the competition platform, in the programming language they prefer. Here we provide Docker containers and example submissions in Python, but participants are allowed to submit with other custom containers too. 
+Participants will be submitting their trained algorithm with their code/workflow to generation predictions into the competition platform, in the programming language they prefer. Here we provide Docker containers and example submissions in Python, but participants are allowed to submit with other custom containers too. 
 
 ## Data visualization notebook
 The `data_visualization.ipynb` guides the challengers in loading, manipulating, and visualizing the training data and labels.
@@ -33,3 +34,4 @@ This example assumes you have a `participant.csv` and `ground_truth.csv` in the 
 
 ### Returns
 The `score` function within the file returns the evaluation metrics as per the challenge guidelines (that is, the F2 and the RMSE). Additionally, the precision and recall are also returned, and, if the `plot_object` parameter is provided, it generates plots for that specific object ID to aid in understanding the evaluation.
+-->
