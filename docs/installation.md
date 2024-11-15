@@ -1,5 +1,6 @@
 # Devkit Installation
-Here, the step-by-step instructions to install the devkit is provided.
+
+We will release the full devkit on December 16, 2024. In the meantime, you can make sure that you have the prerequisities ready.
 
 ## Install Docker
 
@@ -32,8 +33,10 @@ Here, the step-by-step instructions to install the devkit is provided.
 If you plan to use GPU power in your submission and you want to try it locally, you will need to install the [nvidia container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
 
 ## Install Python
-If you do not have Python installed, please refer to the anaconda installation instructions [here](https://docs.anaconda.com/free/anaconda/install/index.html). The devkit is tested for Python 3.8+ on Ubuntu and Mac OS.
+If you do not have Python installed, please refer to the anaconda installation instructions [here](https://docs.anaconda.com/free/anaconda/install/index.html). The devkit is tested for Python 3.10+ on Ubuntu and Mac OS.
 
+
+<!--
 ## Download the Devkit
 
 Download the devkit using the terminal and move into the new folder named "2025-aichallenge-devkit" that was automatically created:
@@ -48,3 +51,4 @@ The challenge
 
 The challenge dataset can be downloaded from <a href="https://www.dropbox.com/scl/fo/jt5h1f82iycjb8elybmlz/h?rlkey=bjcmny486ddf7m0j7b9uok9ww&dl=0">here</a>. Please store the downloaded dataset into the `~/splid-devkit/dataset` folder. Description of the dataset is available on the [SPLID dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
 
+-->
