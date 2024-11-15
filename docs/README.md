@@ -44,47 +44,16 @@
       <img src="https://gist.githubusercontent.com/SSHurtado/ffd2219614f39158cff2a25d99644e08/raw/2dd8b8673032541c0d74eaf8230056fa57e2233f/arXive_icon.svg" alt="Article Icon" style="height: 20px; margin-right: 8px;"> 
       Article
   </div>
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+    <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions" target="_blank" style="color: #ffffff; text-decoration: none;">
+      💬 Discussion Forum
+    </a>
+</div>
 </div>
 
 </div>
 
-
-<!--
-<p align="center">
-  <a href="https://splid-devkit.readthedocs.io/en/latest/installation.html">Installation</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/dataset.html">SPLID Dataset</a> •
-  <a href="https://github.com/ARCLab-MIT/splid-devkit">Development Kit</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/metric.html">Metric</a> <br>
-  <a href="https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite">Paper</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/resources.html">Resources</a> •
-  <a href="https://splid-devkit.readthedocs.io/en/latest/README.html">Documentation</a> •
-  <a href="https://eval.ai/web/challenges/challenge-page/2164/overview">Challenge</a>
-  
-</p>
-
-[![Python](https://img.shields.io/badge/python-%20%203.11-blue.svg)]()
-[![Documentation Status](https://readthedocs.org/projects/splid-devkit/badge/?version=latest)](https://splid-devkit.readthedocs.io/en/latest/?badge=latest)
-[![License](https://img.shields.io/badge/license-MIT-blue.svg)]()
-
-______________________________________________________________________
-<div align="left">
-  
-## Getting started
-The Satellite Pattern-of-Life Identification Dataset (SPLID) can be downloaded from <a href="https://www.dropbox.com/scl/fo/jt5h1f82iycjb8elybmlz/h?rlkey=bjcmny486ddf7m0j7b9uok9ww&dl=0">here</a>. You can find installation instructions for the development toolkit (devkit) on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html), and detailed information about the dataset is available on the [dataset page](https://splid-devkit.readthedocs.io/en/latest/dataset.html).
-
-For those interested in participating in the satellite pattern-of-life identification challenge, please refer to the competition [landing page](https://eval.ai/web/challenges/challenge-page/2164/overview) for complete details.
-
-To get acquainted with the SPLID development toolkit, we recommend following these steps:
-- <b>Read the SPLID Paper:</b> Start by reading the paper on the [Satellite Pattern-of-Life Characterization Dataset and Benchmark Suite](https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite).
-- <b>Explore Dataset Descriptions:</b> Review comprehensive descriptions of the [SPLID dataset](https://splid-devkit.readthedocs.io/en/latest/dataset.html) to understand its nuances.
-- <b>Setup Toolkit and Dataset:</b> Follow the step-by-step instructions provided on the [installation page](https://splid-devkit.readthedocs.io/en/latest/installation.html) to set up the devkit and dataset.
-- <b>Tutorials to Get Started:</b> We've prepared tutorials in the [baseline_submissions folder](https://github.com/ARCLab-MIT/splid-devkit/tree/main/baseline_submissions), each covering essential topics:
-    - `data_visualization.ipynb`: This tutorial guides you on loading, manipulating, and visualizing the training data and labels.
-    - `heuristic_baseline.ipynb`: Here, you'll find a tutorial demonstrating the baseline heuristic solution. It explains the heuristic approach, illustrates how performance is measured, and provides visualizations of the results.
-    - `ml_baseline.ipynb`: This tutorial takes you through the development of the baseline machine learning solution. It describes the training workflow, showcases how performance is assessed, and offers visualizations of the results.
-
--->
-______________________________________________________________________
+---
 
 <div align="left">
 
@@ -220,3 +189,7 @@ If you have any questions regarding the devkit, please submit them to the [devki
 
 © 2024 Massachusetts Institute of Technology.</i>
 </div>
+
+---
+
+
