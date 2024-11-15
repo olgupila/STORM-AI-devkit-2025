@@ -104,10 +104,12 @@ In addition, the public challenge dataset contains collected information on amag
 
 #### X-Ray Flux Data
 
-Lastly, the public challenge dataset includes X-Ray flux data collected from NOAA's GOES satellites.
+Lastly, the public challenge dataset includes X-Ray flux data collected from NOAA's GOES satellites. The figure below shows a snapshot of this data for a single satellite, GOES-10. 
 
 TODO: Replace image
 ![alt text](example_data.png)
+
+
 
 TODO: fix headers, description-- insert OMNI data headers here
 | Type Label  | Description |
