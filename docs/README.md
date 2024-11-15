@@ -1,7 +1,7 @@
 <div align="center">
 
-# Welcome
-**2025 MIT ARCLab Competition for AI Innovation in Space**
+<h1> Welcome </h1>
+<h2> 2025 MIT ARCLab Competition for AI Innovation in Space </h2>
 
 </div>
 
@@ -44,7 +44,7 @@ ______________________________________________________________________
 
 <div align="center">
 
-## Competition Background
+<h3>Competition Overview </h3>
 
 </div>
 
@@ -58,10 +58,28 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 </div>
 
+
 ______________________________________________________________________
 
 <div align="center">
-## Citation
+<h3> Dataset </h3>
+</div>
+
+<div align="left">
+
+You can download the challenge dataset [here](https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=9k81cc7sk0v6g7pkyd2zyk4ae&st=fkzsu8bn&dl=0), and view our wiki page for more detailed information about the dataset and guidelines for using it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
+
+The Satellite Atmospheric Density and Space Atmospheric Weather Dataset (SADSAW) contains collected orbital elements and satellite atmospheric densities, as well as collected information on magnetic field, plasma, indices, particles, X-Ray flux, and additional derived parameters. All dataset information is provided or derived from collections by organizations including the ESA, NASA Goddard Space Flight Center, and NOAA. 
+
+SADSAW consists of a public challenge dataset that can be used to train and develop AI algorithms and a private evaluation dataset of the same type and format.
+
+Algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged.
+
+______________________________________________________________________
+
+
+<div align="center">
+<h3> Citation </h3>
 </div>
 
 <div align="left">
@@ -83,7 +101,7 @@ If you reference the challenge problem, please use the following citation:
 ______________________________________________________________________
 
 <div align="center">
-## Contact Us
+<h3>Contact Us</h3>
 </div>
 
 <div align="left">
@@ -96,7 +114,7 @@ If you have any questions regarding the devkit upon its release, submit an issue
 ______________________________________________________________________
 
 <div align="center">
-Acknowledgement
+<h3>Acknowledgement</h3>
 </div>
 
 <div align="left">
