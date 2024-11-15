@@ -1,30 +1,31 @@
 # Dataset Information
 
-## SADSAW Dataset
+## STORM-AI Dataset
 
-The Satellite Atmospheric Density and Space Atmospheric Weather (SADSAW) Dataset comprises of a public challenge and private evaluation dataset.
+The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) Dataset comprises of a public challenge and private evaluation dataset.
 
-<b>The full public schallenge problem dataset will be made available to participants on December 16, 2024.</b>
+<b>The full public schallenge problem dataset will be made available to participants when the competition phase begins on December 16, 2024.</b>
 
 ### Warmup Dataset 
 
 The [warmup dataset](https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=sty6ggo3&dl=0) for participants was released on November 15, 2024. 
 
-Participants should use the dataset to become familiar with the competition. The warmup dataset consists of: 
+Participants should use this subset of the STORM-AI data to become familiar with the phenomenology and formats they will be asked to use during Phase 1 of the competition. The warmup dataset consists of: 
 * <b>OMNI2_112613_012420.csv</b>: Space weather information, collected by NASA Space Flight Goddard Center 
 * <b>g13_112613_012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite 
-* <b>SWARMA_DNS_POD_0012414_012420.csv</b>: ESA'S SWARM A satellite trajectory information with collected atmospheric density values
+* <b>SWARMA_DNS_POD_0012414_012420.csv</b>: Time series orbit average density values collected by ESA'S SWARM A satellite
+* <b>SWARMA_POD_RN_0012414_012420.csv</b>: Positions and orbit parameters for ESA's SWARM A satellite
 
-Your objective is to design a model that, given 60 days of prior space weather and X-Ray flux information, predicts 3 days of future satellite trajectory, as well as future atmospheric density values along that prediction.
+Your objective is to design a model that, given a spacecraft's initial state and 60 days of space weather and X-Ray flux information directly preceding that state, can predict the next 3 days of atmospheric density values the spacecraft will observe.
 
 That is, your model should take in three kinds of inputs: 
-* An initial location for a satellite, represented using orbital elements
-* Space weather information, 60 days prior to the timestamp of the initial satellite location
-* X-Ray flux information, 60 days prior to the timestamp of the initial satellite location
+* A satellite's initial location, provided in both geodetic coordinates and orbital elements
+* Space weather information for the 60 day period preceding the timestamp of the initial satellite location
+* X-Ray flux information for the 60 day period preceding the timestamp of the initial satellite location
 
-Your model should then output a prediction of satellite trajectory and atmospheric density values. This prediction must span a period of 3 days following the timestamp of the initial satellite location. 
+Your model should then predict the sequence of orbit-averaged atmospheric density values that the spacecraft will observe in the future. This prediction must span a period of 3 days directly following the timestamp of the initial satellite location. 
 
-This explains the starting timestamps in the space weather (OMNI2) and X-Ray flux (G13) information CSV files, which begin 60 days prior to the starting timestamp of the SWARM A data. This also explains the last timestamp in the SWARM A data, which is 3 days past the last timestamp in the OMNI2 and G13 data. 
+Therefore, the timestamps in the space weather (OMNI2) and X-Ray flux (G13) information CSV files begin 60 days prior to the timestamps of the orbits and densities in the SWARM A data files, and the last timestamp in the SWARM A data files is 3 days past the last timestamp in the OMNI2 and G13 data. 
 
 Some recommendations: 
 * You may take the 63-day 'test-case' cycle from anywhere in the provided warmup data files to get familiar with the objective of the competition. 
@@ -33,7 +34,7 @@ Some recommendations:
 
 ### Challenge Dataset Description
 
-SADSAW consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains astrometric data and space weather data. 
+The STORM-AI dataset consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset contains astrometric and space weather data that can be used to train and validate AI algorithms.
 
 #### Astrometric Data
 The astrometric data contains the measured atmospheric density along the trajectories of multiple satellites, each of the satellites operating with different mission objectives and equipped with different propulsion capabilities. The data is provided at a minimum 1-hour temporal resolution, and consists of the orbital elements, geographic positions, and atmospheric density measures of satellites. The figure below shows a snapshot of example challenge data for a single satellite.
