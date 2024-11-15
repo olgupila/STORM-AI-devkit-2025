@@ -1,5 +1,7 @@
 # Citation
-Please use the following citation when referencing the dataset, challenge problem, and [related models](https://doi.org/10.48550/arXiv.2310.16912):
+
+The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the Dataset and Resources sections. If you reference the challenge problem, please use the following citation:
+
 ```
 @article{Briden2023,
   year = {2023},
@@ -9,4 +11,4 @@ Please use the following citation when referencing the dataset, challenge proble
   journal = {Advanced Maui Optical and Space Surveillance (AMOS) Technologies Conference},
   note = {Free preprint available at [https://arxiv.org/abs/2310.16912](https://arxiv.org/abs/2310.16912)}
 }
-```
+``` 

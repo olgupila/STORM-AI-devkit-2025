@@ -2,7 +2,7 @@
 
 # -- Project information
 
-project = '2025-aichallenge-devkit'
+project = '2025-aichallenge-wiki'
 copyright = '2024, MIT ARCLab'
 author = 'Edenna Chen'
 
