@@ -1,3 +1,5 @@
+<!--
+
 # Usage
 In this section, usage of the development toolkit is demonstrated via guided examples.
 
@@ -53,3 +55,5 @@ This example assumes you have `participant.csv` and `ground_truth.csv` files in 
 
 **Returns**
 The `score` function within the file returns the evaluation metrics as per the challenge guidelines (that is, the F<sub>2</sub> and the RMSE). Additionally, the precision and recall are also returned, and, if the `plot_object` parameter is provided, it generates plots for that specific object ID to aid in understanding the evaluation.
+
+-->

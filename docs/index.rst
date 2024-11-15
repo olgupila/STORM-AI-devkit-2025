@@ -1,4 +1,4 @@
-Welcome to SPLID-devkit's documentation!
+2025 MIT ARCLab Competition for AI Innovation in Space
 ===================================
 
 Welcome to the competition wikipage for the 2025 MIT ARCLab Prize for AI Innovation in Space!

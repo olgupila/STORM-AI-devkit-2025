@@ -1,6 +1,8 @@
-# Devkit Installation
+# Participant Devkit Installation
 
-We will release the full devkit on December 16, 2024. In the meantime, you can make sure that you have the prerequisities ready.
+We will release the full devkit on December 16, 2024. 
+
+In the meantime, please ensure that you have the prerequisites ready.
 
 ## Install Docker
 
