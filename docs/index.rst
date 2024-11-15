@@ -25,8 +25,6 @@ Components of the 2025 AI Challenge Devkit will continue to be released and docu
    installation
    background
    baseline
-   metric
-   usage
    submission
    resources
    cite
