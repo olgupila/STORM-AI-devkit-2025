@@ -6,7 +6,7 @@ This solution will help facilitate the assessment of more advanced AI solutions 
 
 In the meantime, we recommend that participants check out [the model this competition drew inspiration from](https://github.com/ARCLab-MIT/2025-aichallenge-devkit.git) to develop a deeper understanding of the atmospheric density forecasting problem.
 
-We also provide participants with a possible solution below, to give an initial idea for their own solution design. 
+We also provide participants with a possible solution below, to give an initial idea for their own solution design. Participants may expect an example implementation of this solution to be released during Phase 1 of the competition.
 
 ## Example solution: pymsis
 This solution draws inspiration from the model( ) that this challenge problem is based off of. We will use NRLMSIS 2.0, an empirical atmospheric density model.
