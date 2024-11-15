@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = '2025-aichallenge-wiki'
+project = '2025 STORM-AI Wiki'
 copyright = '2024, MIT ARCLab'
-author = 'Edenna Chen'
+author = 'MIT ARCLab - Edenna Cheng, Liz Solera and Sergio Sanchez-Hurtado'
 
 release = '0.1'
 version = '0.1.0'
