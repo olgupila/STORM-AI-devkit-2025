@@ -134,9 +134,9 @@ Algorithm inputs must be limited to the phenomenology and data formats present i
 <h3> Development Toolkit </h3>
 </div>
 <div align="justify">
-Participants will gain access to our full development toolkit on GitHub on December 16, 2024.
+Participants will gain access to new features of our development toolkit on GitHub over the course of Phase 0. All features will be available by the launch of Phase 1 on December 16, 2024.
 
-The development kit is coded in Python and comprises a set of essential utility functions, tutorials, and baseline implementations to assist participants in getting started with the challenge problem. The tutorials will guide participants in data reading, understanding, parsing, manipulation, as well as training, evaluating, and submitting their ML algorithms to the competition platform.
+The development kit is coded in Python and comprises a set of essential utility functions, tutorials, and baseline implementations to assist participants in getting started with the challenge problem. The tutorials will guide participants in data reading, parsing, and manipulation, as well as training, evaluating, and submitting their ML algorithms to the competition platform.
 </div>
 
 ---
