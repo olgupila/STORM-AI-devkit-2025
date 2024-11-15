@@ -1,7 +1,7 @@
 <div align="center">
 
-# 2025 MIT ARCLab Competition for AI Innovation in Space
-**Forecasting Atmospheric Density**
+# Welcome
+**2025 MIT ARCLab Competition for AI Innovation in Space**
 
 ______________________________________________________________________
 
@@ -42,7 +42,7 @@ To get acquainted with the SPLID development toolkit, we recommend following the
 -->
 ______________________________________________________________________
 
-## Background
+## Competition Background
 
 In 2024, solar storms have lit up the skies with stunning Auroras across the United States. But while these displays are captivating to observers on the ground, space weather has the potential to wreak havoc on our global satellite infrastructure. Geomagnetic storms cause rapid heating in Earth’s thermosphere, which can lead to more than a 10x increase in satellite drag in mere hours. In May 2024, the Gannon storm caused the largest mass migration of satellites in history and severely degraded satellite collision avoidance systems worldwide for multiple days (Parker and Linares, 2024). This challenge tackles the urgent need for more efficient and accurate tracking and orbit prediction capabilities for resident space objects in the increasingly crowded near-Earth environment. As space activities expand, the demand for advanced technologies to monitor and manage satellite behavior becomes paramount. 
 
@@ -68,7 +68,7 @@ If you reference the challenge problem, please use the following citation:
 ```
 ______________________________________________________________________
 
-## Contact us
+## Contact Us
 
 You can reach us at ai_challenge@mit.edu.
 If you have any questions regarding the devkit upon its release, submit an issue to the Github repo.

@@ -1,6 +1,7 @@
-# Satellite Atmospheric Density and Space Atmospheric Weather Dataset (SADSAW)
+# Dataset Information
 
-## Download the Challenge Dataset
+## Satellite Atmospheric Density and Space Atmospheric Weather Dataset (SADSAW)
+
 The full challenge problem dataset will be made available to participants on December 16, 2024.
 
 Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
