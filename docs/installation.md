@@ -1,6 +1,6 @@
 # Participant Devkit Installation
 
-We will release the full devkit on December 16, 2024. 
+Components of the STORM-AI Devkit will continue to be released and documented here throughout Phase 0 and will be available in full by the launch of Phase 1 on December 16th.
 
 In the meantime, please ensure that you have the prerequisites ready.
 
