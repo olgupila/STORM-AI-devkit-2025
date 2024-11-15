@@ -43,9 +43,11 @@ To get acquainted with the SPLID development toolkit, we recommend following the
 -->
 ______________________________________________________________________
 
-<div align="left">
-
+<div align="center">
 ## Competition Background
+</div>
+
+<div align="left">
 
 In 2024, solar storms have lit up the skies with stunning Auroras across the United States. But while these displays are captivating to observers on the ground, space weather has the potential to wreak havoc on our global satellite infrastructure. Geomagnetic storms cause rapid heating in Earth’s thermosphere, which can lead to more than a 10x increase in satellite drag in mere hours. In May 2024, the Gannon storm caused the largest mass migration of satellites in history and severely degraded satellite collision avoidance systems worldwide for multiple days (Parker and Linares, 2024). This challenge tackles the urgent need for more efficient and accurate tracking and orbit prediction capabilities for resident space objects in the increasingly crowded near-Earth environment. As space activities expand, the demand for advanced technologies to monitor and manage satellite behavior becomes paramount. 
 
@@ -53,9 +55,16 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 (Adapted from [Transformer-based Atmospheric Density Forecasting by Julia Briden, Peng Mun Siew, Victor Rodriguez-Fernandez, and Richard Linares](https://arxiv.org/abs/2310.16912))
 
+</div>
+
 ______________________________________________________________________
 
+<div align="center">
 ## Citation
+</div>
+
+<div align="left">
+
 The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
 
 If you reference the challenge problem, please use the following citation:
@@ -69,9 +78,14 @@ If you reference the challenge problem, please use the following citation:
   note = {Free preprint available at [https://arxiv.org/abs/2310.16912](https://arxiv.org/abs/2310.16912)}
 }
 ```
+</div>
 ______________________________________________________________________
 
+<div align="center">
 ## Contact Us
+</div>
+
+<div align="left">
 
 You can reach us at ai_challenge@mit.edu.
 If you have any questions regarding the devkit upon its release, submit an issue to the Github repo.
