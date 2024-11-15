@@ -5,7 +5,7 @@
     <p style="font-size: 14px; margin: 0; color: #555;">The submission tutorial will be released to participants on <strong>December 16, 2024</strong>.</p>
 </div>
 
-Once the competition phase begins on **December 16, 2024**, we will provide detailed instructions on the submission process. The competition will be hosted on the [EvalAI platform](https://eval.ai/), where you will need to register on the challenge's EvalAI webpage to submit your solutions. While we know you're eager to prepare your models, [here](https://evalai.readthedocs.io/en/latest/participate.html) are some general details to help you get started.
+Once the competition phase begins, we will provide detailed instructions on the submission process. The competition will be hosted on the [EvalAI platform](https://eval.ai/), where you will need to register on the challenge's EvalAI webpage to submit your solutions. While we know you're eager to prepare your models, [here](https://evalai.readthedocs.io/en/latest/participate.html) are some general details to help you get started.
 
 ## Details on the Submission Process
 
