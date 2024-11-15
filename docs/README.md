@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1> Welcome </h1>
+Welcome 
 <h2> 2025 MIT ARCLab Competition for AI Innovation in Space </h2>
 
 </div>
