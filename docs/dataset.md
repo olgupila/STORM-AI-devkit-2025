@@ -26,10 +26,10 @@ Your model should then output a prediction of satellite trajectory and atmospher
 
 This explains the starting timestamps in the space weather (OMNI2) and X-Ray flux (G13) information CSV files, which begin 60 days prior to the starting timestamp of the SWARM A data. This also explains the last timestamp in the SWARM A data, which is 3 days past the last timestamp in the OMNI2 and G13 data. 
 
-We suggest taking this 63-day 'test-case' cycle from anywhere in the provided warmup data files to get familiar with the objective of the competition.
-
-In addition, we recommend reviewing the Challenge Dataset Description below for more details on the challenge and warmup dataset.
-
+Some recommendations: 
+* You may take the 63-day 'test-case' cycle from anywhere in the provided warmup data files to get familiar with the objective of the competition. 
+* We recommend reviewing the Challenge Dataset Description below for more details on the challenge and warmup dataset. This includes exploring the column headers and data type descriptions. 
+* Be mindful of dataset units and representations! The warmup data should help get you in this mindset.
 
 ### Challenge Dataset Description
 
