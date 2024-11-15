@@ -1,5 +1,9 @@
 # Resources
+
+Datastets + specs here
+
 Users can refer to the following publications for more information:
+
 1. [Satellite Pattern-of-Life Characterization Dataset and Benchmark Suite](https://www.researchgate.net/publication/374083350_AI_SSA_Challenge_Problem_Satellite_Pattern-of-Life_Characterization_Dataset_and_Benchmark_Suite)
 
 2. [End-to-End Behavioral Mode Clustering for Geosynchronous Satellites](https://www.researchgate.net/publication/374025335_End-to-End_Behavioral_Mode_Clustering_for_Geosynchronous_Satellites)
