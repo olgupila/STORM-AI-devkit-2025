@@ -1,9 +1,8 @@
-# Submission Tutorial
+# Submission Process
 
-.. note::  
-   The submission tutorial will be released to participants on **December 16, 2024**.
+> The submission tutorial will be released to participants on **December 16, 2024**.
 
-Once the competition phase begins on **December 16, 2024**, we will provide detailed instructions on the submission process. The competition will be hosted on the [EvalAI platform](), where you will need to register on the challenge's EvalAI webpage to submit your solutions. While we know you're eager to prepare your models, here are some general details to help you get started.
+Once the competition phase begins on **December 16, 2024**, we will provide detailed instructions on the submission process. The competition will be hosted on the [EvalAI platform](https://eval.ai/), where you will need to register on the challenge's EvalAI webpage to submit your solutions. While we know you're eager to prepare your models, [here](https://evalai.readthedocs.io/en/latest/participate.html) are some general details to help you get started.
 
 ## Details on the Submission Process
 
@@ -16,8 +15,6 @@ Each submission will be evaluated on our remote server using internal test data 
 ![Process Image](_img/Submission_Process.png)
 
 This approach ensures the use of a private test dataset, protecting data privacy and preventing data leakage.
-
-## 
 
 ## Important information
 
@@ -38,29 +35,27 @@ For maximum compatibility in Python-based submissions, it is recomended to use `
 scikit-learn==1.3.2
 ```
 ### Steps to create your own Docker image for the submission
-.. note::
-   We will provide you with a `Dockerfile` in the baseline, so this part is **optional**. However, if you are not familiar with this tool, we recommend starting with a very simple `Dockerfile` in your implementation. Below is a straightforward example, extracted from last year’s challenge:
-
-   ```Dockerfile
-    ####################################
-    # EXAMPLE IMAGE FOR PYTHON SUBMISSIONS
-    ####################################
-    FROM ubuntu:22.04
-
-    # Use this one for submissions that require GPU processing
-    #FROM nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
-
-    RUN apt-get update && \
-        DEBIAN_FRONTEND=noninteractive apt-get install -y python3 python3-pip && \
-        ln -sf /usr/bin/python3 /usr/bin/python && \
-        rm -rf /var/lib/apt/lists/*
-
-    # ADDITIONAL PYTHON DEPENDENCIES (if you have them)
-    COPY requirements.txt ./
-    RUN pip install -r requirements.txt
-
-    WORKDIR /app
-```
+> We will provide you with a `Dockerfile` in the baseline, so this part is **optional**. However, if you are not familiar with this tool, we recommend starting > with a very simple `Dockerfile` in your implementation. Below is a straightforward example, extracted from last year’s challenge:
+>  ```Dockerfile
+>     ####################################
+>    # EXAMPLE IMAGE FOR PYTHON SUBMISSIONS
+>    ####################################
+>    FROM ubuntu:22.04
+>
+>    # Use this one for submissions that require GPU processing
+>    #FROM nvidia/cuda:12.1.0-cudnn8-runtime-ubuntu22.04
+>
+>    RUN apt-get update && \
+>        DEBIAN_FRONTEND=noninteractive apt-get install -y python3 python3-pip && \
+>        ln -sf /usr/bin/python3 /usr/bin/python && \
+>        rm -rf /var/lib/apt/lists/*
+>
+>    # ADDITIONAL PYTHON DEPENDENCIES (if you have them)
+>    COPY requirements.txt ./
+>    RUN pip install -r requirements.txt
+>
+>    WORKDIR /app
+>```
 
 Here are some important considerations to keep in mind when creating your own `Dockerfile`.
 
