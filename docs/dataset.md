@@ -1,14 +1,10 @@
 # Dataset Information
 
-## SADSAW
+## SADSAW Dataset
 
 The Satellite Atmospheric Density and Space Atmospheric Weather (SADSAW) Dataset comprises of a public challenge and private evaluation dataset.
 
 <b>The full public schallenge problem dataset will be made available to participants on December 16, 2024.</b>
-
-Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
-
-Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
 
 ### Challenge Dataset Description
 
@@ -51,3 +47,9 @@ TODO: fix headers, description-- insert OMNI data headers here
 
 ### Evaluation Dataset 
 The private evaluation dataset contains additional data that will be used to evaluate the performance of the participants' models. This private evaluation dataset consists of the trajectories and atmospheric density values of satellites not included in the public challenge dataset.
+
+## Guidelines
+
+Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
+
+Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
