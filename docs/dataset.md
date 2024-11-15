@@ -16,9 +16,8 @@ The astrometric data contains the measured atmospheric density along the traject
 TODO: Replace image
 ![alt text](example_data.png)
 
-A short description of each column header and description is provided below: 
+A short description of each column header and description in the astrometric data is provided below: 
 
-TODO: Fix descriptions
 | Column Header  | Description | 
 | ------------- | ------------- | 
 | time  | Start of the study period  |
