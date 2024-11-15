@@ -3,7 +3,8 @@
 # STORM-AI Devkit
 **Satellite Tracking and Orbit Resilience Modeling with AI** 
 
-*2025 MIT ARCLab Competition for AI Innovation in Space*
+<img src="_img/subtitle.png" width>
+
 
 </div>
 
@@ -11,7 +12,12 @@ ______________________________________________________________________
 <div align="center">
 [Index]
 
-[Badges]
+<div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+    <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
+        📚 Read The Docs
+    </a>
+</div>
+
 </div>
 
 
@@ -72,15 +78,12 @@ ______________________________________________________________________
 In 2024, solar storms have lit up the skies with stunning Auroras across the United States. But while these displays are captivating to observers on the ground, space weather has the potential to wreak havoc on our global satellite infrastructure. Geomagnetic storms cause rapid heating in Earth’s thermosphere, which can lead to more than a 10x increase in satellite drag in mere hours. In May 2024, the Gannon storm caused the largest mass migration of satellites in history and severely degraded satellite collision avoidance systems worldwide for multiple days (Parker and Linares, 2024). This challenge tackles the urgent need for more efficient and accurate tracking and orbit prediction capabilities for resident space objects in the increasingly crowded near-Earth environment. As space activities expand, the demand for advanced technologies to monitor and manage satellite behavior becomes paramount. 
 
 The challenge objective is to develop cutting-edge AI algorithms for nowcasting and forecasting space weather-driven changes in atmospheric density across low earth orbit using historical space weather observations. The available phenomenology include solar and geomagnetic space weather indices,measurements of the interplanetary magnetic field, and measured solar wind parameters. Participants are provided with an existing empirical atmospheric density model and spacecraft accelerometer-derived in situ densities and are tasked with training or creating models to forecast the atmospheric density.
-
-*Adapted from:*
-
-[![arxiv](_img/arxiv_paper.svg)](https://arxiv.org/abs/2310.16912)
-
 </div>
 
+*Adapted from:*  [![arxiv](_img/arxiv_paper.svg)](https://arxiv.org/abs/2310.16912)
 
-______________________________________________________________________
+
+---
 
 <div align="center">
 <h3> Dataset </h3>
@@ -98,8 +101,7 @@ Algorithm inputs must be limited to the phenomenology and data formats present i
 
 </div>
 
-______________________________________________________________________
-
+---
 <div align="center">
 <h3> Development Toolkit </h3>
 </div>
@@ -108,8 +110,8 @@ Participants will gain access to our full development toolkit on GitHub on Decem
 
 The development kit is coded in Python and comprises a set of essential utility functions, tutorials, and baseline implementations to assist participants in getting started with the challenge problem. The tutorials will guide participants in data reading, understanding, parsing, manipulation, as well as training, evaluating, and submitting their ML algorithms to the competition platform.
 </div>
-______________________________________________________________________
 
+---
 
 <div align="center">
 <h3> Prizes </h3>
@@ -124,8 +126,8 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 
 <b> Terms and conditions: </b> Expenses for travel and accommodations may be reimbursed for one person from each of the first, second, and third place teams. Airfare is reimbursable for economy class and U.S. Flag carrier airlines only. Travelers must submit a budget for approval prior to the trip. Travelers must provide comparison airfare if their trip exceeds the bounds of one day prior to and one day following the designated trip dates. Expenses will be reimbursed after the trip is complete. Cash awards are taxable, and automatic tax withholding will be carried out for nonresidents, while a 1099 will be issued for U.S. residents. Taxes for domestic payments are subject to MIT rules. Taxes for international payments (payments to non-U.S. citizens, including human subjects and recipients of student prizes or awards) are subject to a mandatory 30 percent tax withholding per U.S. government regulations. For some international awards, a reduced cash prize must be awarded due to MIT regulations. All cash prizes will be awarded after the technical meeting. All cash awards are subject to MIT policies and any relevant government policies.
 </div>
-______________________________________________________________________
 
+---
 
 <div align="center">
 <h3> Challenge Timeline </h3>
@@ -142,7 +144,8 @@ ______________________________________________________________________
 | April 14, 2025 | Phase 2 ends. Technical report deadline. |
 | May 16, 2025 | Winner announcement. |
 -->
-______________________________________________________________________
+
+---
 
 <div align="center">
 <h3> Citation </h3>
@@ -165,7 +168,7 @@ If you reference the challenge problem, please use the following citation:
 ```
 </div>
 
-______________________________________________________________________
+---
 
 <div align="center">
 <h3>Contact Us</h3>
@@ -178,7 +181,7 @@ If you have any questions regarding the devkit upon its release, submit an issue
 
 </div>
 
-______________________________________________________________________
+---
 
 <div align="center">
 <h3>Acknowledgement</h3>
