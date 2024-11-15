@@ -18,4 +18,4 @@ Users can refer to the following publications for more information:
 
 4. [pymsis (tool for modeling atmospheric density)](https://pypi.org/project/pymsis/)
 
-5. 
+5. [Transformer-based Atmospheric Density Forecasting (Briden, Siew, R.F., Linares)](https://arxiv.org/abs/2310.16912)
