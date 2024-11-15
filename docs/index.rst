@@ -19,6 +19,7 @@ Components of the 2025 AI Challenge Devkit will continue to be released and docu
    README
    dataset
    installation
+   background
    baseline
    metric
    usage

@@ -1,21 +1,37 @@
 <div align="center">
 
-# STORM-AI Devkit
+# STORM-AI
 **Satellite Tracking and Orbit Resilience Modeling with AI** 
 
 ![subtitle](_img/subtitle.png)
 
 
 </div>
+<!-- 2025-STORM-AI-devkit or STORM-AI-devkit-2025 -->
 
-______________________________________________________________________
+---
+
 <div align="center">
-[Index]
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html">Dataset</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/installation.html">Devkit Installation</a> • 
+<a href=""></a> • 
 
-<div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
-    <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
+<div style="display: flex; justify-content: center; align-items: center; gap: 10px; padding: 10px;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
+      <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
         📚 Read The Docs
-    </a>
+      </a>
+  </div>
+
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed; width: fit-content;">
+      <img src="https://eval.ai/dist/images/evalai-logo-single.png" alt="EvalAI Logo" style="height: 20px; margin-right: 8px;">
+      EvalAI Challenge
+  </div>
+
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed;">
+      <img src="https://gist.githubusercontent.com/SSHurtado/ffd2219614f39158cff2a25d99644e08/raw/2dd8b8673032541c0d74eaf8230056fa57e2233f/arXive_icon.svg" alt="Article Icon" style="height: 20px; margin-right: 8px;"> 
+      Article
+  </div>
 </div>
 
 </div>

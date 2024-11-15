@@ -4,5 +4,5 @@ build-backend = "flit_core.buildapi"
 
 [project]
 name = "splid-devkit"
-authors = [{name = "Peng Mun Siew", email = "siewpm@mit.edu"}]
+authors = [{name = "ARCLab", email = "ai_challenge@mit.edu"}]
 dynamic = ["version", "description"]
