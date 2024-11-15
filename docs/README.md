@@ -1,7 +1,7 @@
 <div align="center">
 
-# SADSAW
-**Satellite Atmospheric Density and Space Atmospheric Weather Dataset.**
+# 2025 MIT ARCLab Competition for AI Innovation in Space
+**Forecasting Atmospheric Density**
 
 ______________________________________________________________________
 
