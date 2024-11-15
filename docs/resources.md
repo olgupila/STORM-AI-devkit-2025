@@ -1,8 +1,6 @@
 # Resources
 
-The following resources, including datasets and publications, are made available to participants during the challenge. Please note that participants should cite any of these resources as necesssary in developing solutions for the challenge problem.
-
-Users can refer to the following publications for more information:
+The following datasets, development tools, and publications may be helpful resources for participants the reference during the challenge. Please note that these resources should be cited or credited in accordance with the policies of the source entity when they are utilized to develop solutions for the challenge problem.
 
 1. [OMNI2 space weather dataset (NASA Goddard Space Flight Center)](https://omniweb.gsfc.nasa.gov/form/dx1.html)
 
