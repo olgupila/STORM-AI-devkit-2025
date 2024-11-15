@@ -41,7 +41,7 @@ The astrometric data contains the measured atmospheric density along the traject
 
 The [warmup dataset](https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=me1bztt2pmitz8w7ss825scs1&st=jsy8omrb&dl=0) includes an example subsection of this space weather data collected from NASA's OMNI2 satellite, from November 26, 2013 to January 24, 2020. 
 
-TODO: Replace image
+TODO: Replace img
 ![alt text](example_data.png)
 
 A short description of each column header and description in the astrometric data is provided below: 
