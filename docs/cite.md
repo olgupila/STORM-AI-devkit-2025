@@ -1,7 +1,8 @@
 # Citation
 
-The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the Dataset and Resources sections. If you reference the challenge problem, please use the following citation:
+The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
 
+If you reference the challenge problem, please use the following citation:
 ```
 @article{Briden2023,
   year = {2023},

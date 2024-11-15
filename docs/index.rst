@@ -8,6 +8,8 @@ Here, you'll find up-to-date information and communications about competition gu
 We will release the full details of the competition to participants on December 16, 2024. 
 This will include the challenge dataset, development toolkit for participants, submission tutorial, and description of evaluation metrics. 
 
+We're excited to
+
 .. note::
 
    This project is under active development.
@@ -17,8 +19,8 @@ This will include the challenge dataset, development toolkit for participants, s
 
    <self>
    README
-   installation
    dataset
+   installation
    baseline
    metric
    usage

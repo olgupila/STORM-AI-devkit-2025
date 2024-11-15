@@ -1,10 +1,11 @@
 <div align="center">
 
-# SPLID
-**Satellite Pattern-of-Life Identification Dataset.**
+# SADSAW
+**Satellite Atmospheric Density and Space Atmospheric Weather Dataset.**
 
 ______________________________________________________________________
 
+<!--
 <p align="center">
   <a href="https://splid-devkit.readthedocs.io/en/latest/installation.html">Installation</a> •
   <a href="https://splid-devkit.readthedocs.io/en/latest/dataset.html">SPLID Dataset</a> •
@@ -38,16 +39,23 @@ To get acquainted with the SPLID development toolkit, we recommend following the
     - `heuristic_baseline.ipynb`: Here, you'll find a tutorial demonstrating the baseline heuristic solution. It explains the heuristic approach, illustrates how performance is measured, and provides visualizations of the results.
     - `ml_baseline.ipynb`: This tutorial takes you through the development of the baseline machine learning solution. It describes the training workflow, showcases how performance is assessed, and offers visualizations of the results.
 
+-->
 ______________________________________________________________________
 
 ## Background
-Because most longitudinal positions within the geostationary belt are unstable—small perturbative forces in the near-Earth space environment push and pull objects from their stations—operators regularly command their geosynchronous (GEO) satellites to perform station-keeping maneuvers to maintain a near-fixed position relative to the Earth’s surface. The magnitude, direction, and frequency of station-keeping maneuvers, however, vary alongside GEO satellites’ mission requirements, the constraints of their onboard control systems, and other factors, including their operators’ preferences. When satellite operators choose to change the position of their GEO satellites by performing a longitudinal-shift maneuver, a once rare, but now common occurrence in that orbital regime, they can choose to perform it as they please, with wide observable variations in drift rate, drift time, and Δv expended. Similarly, operators retire their satellites at their own discretion, sometimes leaving them in libration orbits—where they slowly swing past one or both of the geostationary belt’s stable points—but sometimes placing them in higher-altitude graveyard orbits. Operator decisions that affect GEO satellites’ physical positions leave traces in the satellites' historical orbital elements. A GEO satellite’s pattern of life (PoL) summarizes these traces by offering a description of satellites’ unique combinations of behavioral modes—time periods in which they were station-keeping or drifting—separated by nodes during which they changed from one mode to another.
-(Adapted from [Geosynchronous Satellite Behavior Classification via Unsupervised Machine Learning, by Thomas G. Roberts, Haley E. Solera, and Richard Linares.](https://www.researchgate.net/publication/368982563_Geosynchronous_Satellite_Behavior_Classification_via_Unsupervised_Machine_Learning))
+
+In 2024, solar storms have lit up the skies with stunning Auroras across the United States. But while these displays are captivating to observers on the ground, space weather has the potential to wreak havoc on our global satellite infrastructure. Geomagnetic storms cause rapid heating in Earth’s thermosphere, which can lead to more than a 10x increase in satellite drag in mere hours. In May 2024, the Gannon storm caused the largest mass migration of satellites in history and severely degraded satellite collision avoidance systems worldwide for multiple days (Parker and Linares, 2024). This challenge tackles the urgent need for more efficient and accurate tracking and orbit prediction capabilities for resident space objects in the increasingly crowded near-Earth environment. As space activities expand, the demand for advanced technologies to monitor and manage satellite behavior becomes paramount. 
+
+The challenge objective is to develop cutting-edge AI algorithms for nowcasting and forecasting space weather-driven changes in atmospheric density across low earth orbit using historical space weather observations. The available phenomenology include solar and geomagnetic space weather indices,measurements of the interplanetary magnetic field, and measured solar wind parameters. Participants are provided with an existing empirical atmospheric density model and spacecraft accelerometer-derived in situ densities and are tasked with training or creating models to forecast the atmospheric density.
+
+(Adapted from [Transformer-based Atmospheric Density Forecasting by Julia Briden, Peng Mun Siew, Victor Rodriguez-Fernandez, and Richard Linares](https://arxiv.org/abs/2310.16912))
 
 ______________________________________________________________________
 
 ## Citation
-Please use the following citation when referencing the dataset, challenge problem, and [related models](https://doi.org/10.48550/arXiv.2310.16912):
+The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
+
+If you reference the challenge problem, please use the following citation:
 ```
 @article{Briden2023,
   year = {2023},
@@ -62,5 +70,6 @@ ______________________________________________________________________
 
 ## Contact us
 
-TODO: fix 
-Submit an issue to the github repo or email us at ai_challenge@mit.edu.
+You can reach us at ai_challenge@mit.edu.
+If you have any questions regarding the devkit upon its release, submit an issue to the Github repo.
+
