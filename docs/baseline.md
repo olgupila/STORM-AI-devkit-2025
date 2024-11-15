@@ -9,9 +9,9 @@ In the meantime, we recommend that participants check out [the model this compet
 We also provide participants with a possible solution below, to give an initial idea for their own solution design. Participants may expect an example implementation of this solution to be released during Phase 1 of the competition.
 
 ## Example solution: pymsis
-This solution draws inspiration from the model( ) that this challenge problem is based off of. We will use NRLMSIS 2.0, an empirical atmospheric density model.
+This solution draws inspiration from the [model](https://github.com/ARCLab-MIT/2025-aichallenge-devkit/tree/main/background_model) that this challenge problem is based off of. We will use NRLMSIS 2.0, an empirical atmospheric density model.
 
-NRLMSIS 2.0 takes in satellite time, altitude, longitude, latitude and two additional space weather parameters: F10.7 solar flux and Ap geomagnetic index. We source these space weather parameters from NASA's historical [OMNI dataset](https://omniweb.gsfc.nasa.gov/). 
+NRLMSIS 2.0 takes in satellite time, altitude, longitude, latitude and two additional space weather parameters: F10.7 solar flux and Ap geomagnetic index. We source these two additional space weather parameters from NASA's historical [OMNI dataset](https://omniweb.gsfc.nasa.gov/). 
 
 We can then use the [pymsis](https://pypi.org/project/pymsis/) package to generate atmospheric density values along an expected satellite orbit. 
 
