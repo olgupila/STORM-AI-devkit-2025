@@ -23,12 +23,12 @@ TODO: Fix descriptions
 | ------------- | ------------- | 
 | time  | Start of the study period  |
 | semi_major_axis | Satellite semi-major axis. Defines the size of the orbit. Represented in | 
-| eccentricity | Satellite eccentricity. Describes the shape of the orbit and how stretched it is. Ranges from 0 (perfectly circular) to 1 (parabolic); values greater than 1 indicate a hyperbolic orbit. | 
-| inclination | Satellite inclination. The tilt of the orbit relative to the equatorial plane of the central body; the angle between the orbital plane and the equatorial plane. An inclination of 0° indicates an orbit in the equatorial plane, while 90° represents a polar orbit (crossing over the poles). Measured in degrees. |
-| right_ascension | Satellite right ascension of the ascending node. Defines horizontal orientation of the orbit; tilt of the orbit relative to the equatorial plane. Measured in degrees. |
-| arg_periapsis | Satellite argument of periapsis. Specifies the orientation of the orbit within its plane; defines where the orbit’s closest approach occurs within the plane of the orbit. Measured in degrees. |
+| eccentricity | Satellite eccentricity. Describes the shape of the orbit and how stretched it is. Ranges from 0 (perfectly circular) to 1 (parabolic); values greater than 1 indicate a hyperbolic orbit. Units in kilometers for this dataset. | 
+| inclination | Satellite inclination. The tilt of the orbit relative to the equatorial plane of the central body; the angle between the orbital plane and the equatorial plane. An inclination of 0° indicates an orbit in the equatorial plane, while 90° represents a polar orbit (crossing over the poles). Units in degrees. |
+| right_ascension | Satellite right ascension of the ascending node. Defines horizontal orientation of the orbit; tilt of the orbit relative to the equatorial plane. Units in degrees. |
+| arg_periapsis | Satellite argument of periapsis. Specifies the orientation of the orbit within its plane; defines where the orbit’s closest approach occurs within the plane of the orbit. Units in degrees. |
 | true_anomaly | Satellite true anomaly. Position of the body along the orbit at a specific time. Measured in degrees. |
-| density |  XXX  |
+| density |  Mass density of the atmosphere at satellite altitude. Used to calculate aerodynamic drag, which affects orbit decay and may require drift control adjustments. Units are in kg/m^3.  |
 | density_orbitmean  | Initate drift  | 
 | validity_flag  | Adjust drift  |
 | altitude  | Initiate station-keeping  | 
