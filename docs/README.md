@@ -142,7 +142,7 @@ If you reference the challenge problem, please use the following citation:
 ```
 </div>
 
-<!-- ______________________________________________________________________ -->
+______________________________________________________________________
 
 <div align="center">
 <h3>Contact Us</h3>
