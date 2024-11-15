@@ -75,6 +75,19 @@ SADSAW consists of a public challenge dataset that can be used to train and deve
 
 Algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged.
 
+</div>
+
+______________________________________________________________________
+
+<div align="center">
+<h3> Development Toolkit </h3>
+</div>
+
+Participants will gain access to our full development toolkit on GitHub on December 16, 2024.
+
+The development kit is coded in Python and comprises a set of essential utility functions, tutorials, and baseline implementations to assist participants in getting started with the challenge problem. The tutorials will guide participants in data reading, understanding, parsing, manipulation, as well as training, evaluating, and submitting their ML algorithms to the competition platform.
+
+
 ______________________________________________________________________
 
 
@@ -98,7 +111,8 @@ If you reference the challenge problem, please use the following citation:
 }
 ```
 </div>
-______________________________________________________________________
+
+<!-- ______________________________________________________________________ -->
 
 <div align="center">
 <h3>Contact Us</h3>
