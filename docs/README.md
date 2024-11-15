@@ -121,11 +121,9 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 You can download the current version of the challenge dataset [here](https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=g9w3qh9u&dl=0), and view our wiki page for more detailed information about the provided data and how to use it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
 
-The Satellite Atmospheric Density and Space Atmospheric Weather Dataset (SADSAW) contains a collection of historical orbital elements and satellite atmospheric densities, as well as information on magnetic field, plasma, indices, particles, X-Ray flux, and additional derived parameters. All training data is derived from public data sources distributed by organizations that are not affiliated with the AI Challenge, including the ESA, NASA Goddard Space Flight Center, and NOAA. 
+The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) dataset contains a collection of historical orbital elements and satellite atmospheric densities, as well as information on magnetic field, plasma, indices, particles, X-Ray flux, and additional derived parameters. All training data is derived from public data sources distributed by organizations that are not affiliated with the AI Challenge, including the ESA, NASA Goddard Space Flight Center, and NOAA. 
 
-SADSAW consists of a public challenge dataset that can be used to train and develop AI algorithms and a private evaluation dataset of the same type and format.
-
-Algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged.
+The dataset consists of a public challenge dataset that can be used to train and develop AI algorithms and a private evaluation dataset of the same type and format. For valid submissions, algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged.
 
 </div>
 
@@ -183,9 +181,9 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 
 <div align="left">
 
-The challenge SADSAW dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
+The STORM-AI dataset contains multiple data sources and should be credited in accordance with the policies of each data provider linked in the [Dataset](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html) and [Resources](https://2025-ai-challenge.readthedocs.io/en/latest/resources.html) sections. 
 
-If you reference the challenge problem, please use the following citation:
+If you reference the 2025 AI challenge problem, please use the following citation:
 ```bibtex
 @article{Briden2023,
   year = {2023},
@@ -206,8 +204,8 @@ If you reference the challenge problem, please use the following citation:
 
 <div align="left">
 
-You can reach us at ai_challenge@mit.edu.
-If you have any questions regarding the devkit upon its release, submit an issue to the Github repo.
+You can reach the challenge organizers at ai_challenge@mit.edu.
+If you have any questions regarding the devkit, please submit them to the [devkit discussion forum](https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions) on GitHub.
 
 </div>
 
