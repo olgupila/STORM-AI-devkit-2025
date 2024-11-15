@@ -3,6 +3,7 @@
 # Welcome
 **2025 MIT ARCLab Competition for AI Innovation in Space**
 
+</div>
 ______________________________________________________________________
 
 <!--
@@ -75,3 +76,4 @@ ______________________________________________________________________
 You can reach us at ai_challenge@mit.edu.
 If you have any questions regarding the devkit upon its release, submit an issue to the Github repo.
 
+</div>
