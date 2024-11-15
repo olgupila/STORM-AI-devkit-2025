@@ -14,8 +14,13 @@
 <div align="center">
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html">Dataset</a> • 
 <a href="https://2025-ai-challenge.readthedocs.io/en/latest/installation.html">Devkit Installation</a> • 
-<a href=""></a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/background.html">Background</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/baseline.html">Baseline Solutions</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/submission.html">Submission Process</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/resources.html">Resources</a> • 
+<a href="https://2025-ai-challenge.readthedocs.io/en/latest/faq.html">FAQ</a> 
 
+---
 <div style="display: flex; justify-content: center; align-items: center; gap: 10px; padding: 10px;">
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
       <a href="https://2025-ai-challenge.readthedocs.io/en/latest/README.html" target="_blank" style="color: #ffffff; text-decoration: none;">
