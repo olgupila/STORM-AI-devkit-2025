@@ -1,2 +1,2 @@
 # Frequently Asked Questions
-This section will be updated as the competition progresses.
+FAQs will be posted and addressed here as the competition progresses.
