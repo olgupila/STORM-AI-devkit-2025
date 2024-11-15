@@ -12,14 +12,6 @@ The data preprocessing, training, and evaluation notebooks are adapted and modif
 
 Research was sponsored by the Department of the Air Force Artificial Intelligence Accelerator and was accomplished under Cooperative Agreement Number FA8750-19-2-1000. The views and conclusions contained in this document are those of the authors and should not be interpreted as representing the official policies, either expressed or implied, of the Department of the Air Force or the U.S. Government. The U.S. Government is authorized to reproduce and distribute reprints for Government purposes notwithstanding any copyright notation herein.
 
-# Evaluation Metrics
-
-Evaluation of contestants’ model outputs, in the form of atmospheric density grids will consist of comparing satellite trajectory data through the evaluated grid to solution trajectory data, generated using a high-fidelity orbital propagator.
-
-**TODO** Add evaluation here (will work with Mia to add on propagator details).
-
-A description of the models involved in the solution grid and trajectory data will be released at the conclusion of the competition.
-
 ## Citing
 
 If you use this code in your work, kindly cite the following associated publication.
