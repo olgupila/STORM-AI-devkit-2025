@@ -1,7 +1,5 @@
 # Resources
 
-Datastets + specs here
-
 The following resources, including datasets and publications, are made available to participants during the challenge. Please note that participants should cite any of these resources as necesssary in developing solutions for the challenge problem.
 
 Users can refer to the following publications for more information:
