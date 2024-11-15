@@ -3,6 +3,17 @@
 # Welcome 
 **2025 MIT ARCLab Competition for AI Innovation in Space** 
 
+</div>
+______________________________________________________________________
+
+<div align="center">
+
+<h3>Competition Status</h3>
+
+</div>
+
+<div align="left">
+
 We are currently in <b>Phase 0</b> of the competition. Information about the [warmup dataset](https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=me1bztt2pmitz8w7ss825scs1&st=jsy8omrb&dl=0) has been released; please check out the [Dataset Information section](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#warmup-dataset). Have fun!
 
 <b> Phase 1 </b> of the competition will begin on December 16, 2024.
