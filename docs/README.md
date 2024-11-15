@@ -92,6 +92,36 @@ ______________________________________________________________________
 
 
 <div align="center">
+<h3> Prizes </h3>
+</div>
+
+Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 in cash and travel expenses for three presenters to share their results at a technical meeting. Here is the prize breakdown:
+
+* <b> First place: </b> USD 10,000 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Second place: </b> USD 5,000 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Third place: </b> USD 3,000 in cash and a trip for one team-member to present their results at a technical meeting.
+* <b> Seal of Excellence (4th - 10th): </b> USD 1,000 in cash.
+
+<b> Terms and conditions: </b> Expenses for travel and accommodations may be reimbursed for one person from each of the first, second, and third place teams. Airfare is reimbursable for economy class and U.S. Flag carrier airlines only. Travelers must submit a budget for approval prior to the trip. Travelers must provide comparison airfare if their trip exceeds the bounds of one day prior to and one day following the designated trip dates. Expenses will be reimbursed after the trip is complete. Cash awards are taxable, and automatic tax withholding will be carried out for nonresidents, while a 1099 will be issued for U.S. residents. Taxes for domestic payments are subject to MIT rules. Taxes for international payments (payments to non-U.S. citizens, including human subjects and recipients of student prizes or awards) are subject to a mandatory 30 percent tax withholding per U.S. government regulations. For some international awards, a reduced cash prize must be awarded due to MIT regulations. All cash prizes will be awarded after the technical meeting. All cash awards are subject to MIT policies and any relevant government policies.
+
+______________________________________________________________________
+
+
+<div align="center">
+<h3> Challenge Timeline </h3>
+</div>
+
+| Date  | Event | 
+| ------------- | ------------- | 
+| November 15, 2024 | Warm-up phase starts. |
+| December 16, 2024 | Phase 1 of the competition starts. Submissions accepted on a rolling basis. |
+| March 17, 2025 |Phase 1 ends. Top 10 finalists are notified of advancement to Phase 2. |
+| April 14, 2025 | Phase 2 ends. Technical report deadline. |
+| May 16, 2025 | Winner announcement. |
+
+______________________________________________________________________
+
+<div align="center">
 <h3> Citation </h3>
 </div>
 
