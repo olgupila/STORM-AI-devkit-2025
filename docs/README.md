@@ -4,7 +4,6 @@
 **2025 MIT ARCLab Competition for AI Innovation in Space**
 
 </div>
-______________________________________________________________________
 
 <!--
 <p align="center">
