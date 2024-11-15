@@ -3,8 +3,9 @@
 # Welcome
 **2025 MIT ARCLab Competition for AI Innovation in Space**
 
-</div>
 ______________________________________________________________________
+
+</div>
 
 <!--
 <p align="center">
@@ -41,9 +42,10 @@ To get acquainted with the SPLID development toolkit, we recommend following the
     - `ml_baseline.ipynb`: This tutorial takes you through the development of the baseline machine learning solution. It describes the training workflow, showcases how performance is assessed, and offers visualizations of the results.
 
 -->
+<div align="center">
 ______________________________________________________________________
 
-<div align="center">
+
 ## Competition Background
 </div>
 
@@ -57,9 +59,10 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 </div>
 
+<div align="center">
 ______________________________________________________________________
 
-<div align="center">
+
 ## Citation
 </div>
 
@@ -79,9 +82,10 @@ If you reference the challenge problem, please use the following citation:
 }
 ```
 </div>
+<div align="center">
 ______________________________________________________________________
 
-<div align="center">
+
 ## Contact Us
 </div>
 
