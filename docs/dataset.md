@@ -4,7 +4,7 @@
 
 The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) Dataset comprises of a public challenge and private evaluation dataset.
 
-<b>The full public schallenge problem dataset will be made available to participants when the competition phase begins on December 16, 2024.</b>
+<b>The full public challenge problem dataset will be made available to participants when the competition phase begins.</b>
 
 ### Warmup Dataset 
 
@@ -111,7 +111,7 @@ Some recommendations:
 | xrsb_flag_excluded       | Indicates whether specific XRS-B data points are excluded based on quality checks. Binary flag.    |
 -->
 
-### SWARM A Atmospheric Density Data
+#### SWARM A Atmospheric Density Data
 
 | Column Header  | Description | 
 | ------------- | ------------- | 
@@ -125,7 +125,7 @@ Some recommendations:
 | local_solar_time | Local solar time at the satellite’s position relative to the Sun. Units in hours for this dataset. |
 
 
-### SWARM A Orbital Elements Data
+#### SWARM A Orbital Elements Data
 
 | Column Header  | Description | 
 | ------------- | ------------- | 
@@ -138,14 +138,14 @@ Some recommendations:
 | true_anomaly | Satellite true anomaly. Position of the body along the orbit at a specific time. Units in degrees. |
 
 
-### Challenge Dataset Description
+## Challenge Dataset Description
 
 The STORM-AI dataset consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset will contain astrometric and space weather data that can be used to train and validate AI algorithms. 
 
-## Public Challenge Dataset
+### Public Challenge Dataset
 The public challenge dataset will include similar information to the warmup dataset.
 
-## Evaluation Dataset 
+### Evaluation Dataset 
 The private evaluation dataset contains additional data that will be used to evaluate the performance of the participants' models. This private evaluation dataset consists of the trajectories and atmospheric density values of satellites not included in the public challenge dataset.
 
 ## Guidelines
