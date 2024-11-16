@@ -12,7 +12,7 @@ The [warmup dataset](https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2
 
 Participants should use this subset of the STORM-AI data to become familiar with the phenomenology and formats they will be asked to use during Phase 1 of the competition. The warmup dataset consists of: 
 * <b>OMNI2_112613_012420.csv</b>: Space weather information, collected by NASA Space Flight Goddard Center 
-* <b>G13_112613_012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite 
+<!-- *<b>G13_112613_012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite -->
 * <b>SWARMA_DNS_POD_0012414_012720.csv</b>: Time series orbit average density values collected by ESA'S SWARM A satellite
 * <b>SWARMA_POD_RD_-01282014-01272020.csv/b>: Orbital elements for ESA's SWARM A satellite
 
@@ -94,7 +94,7 @@ Some recommendations:
 | Flux_FLAG                  | Flag indicating quality of proton flux measurements. Units in -.                                     |
 | Date                       | Date of observation. Units in YYYY-MM-DD.                                                            |
 
-#### GOES-13 X-Ray Flux Data
+<!-- #### GOES-13 X-Ray Flux Data
 | Column Header            | Description                                                                                       |
 |---------------------------|---------------------------------------------------------------------------------------------------|
 | xrsa_flux                | Flux measured in the XRS-A sensor, represents solar soft X-ray emissions. |
@@ -110,7 +110,7 @@ Some recommendations:
 | time                     | Timestamp of the measurement.                                                  |
 | xrsa_flag_excluded       | Indicates whether specific XRS-A data points are excluded based on quality checks. Binary flag.    |
 | xrsb_flag_excluded       | Indicates whether specific XRS-B data points are excluded based on quality checks. Binary flag.    |
-
+-->
 
 ### SWARM A Atmospheric Density Data
 
@@ -144,7 +144,7 @@ Some recommendations:
 The STORM-AI dataset consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset will contain astrometric and space weather data that can be used to train and validate AI algorithms. 
 
 ## Public Challenge Dataset
-The public challenge dataset will be released on December 16, 2024.
+The public challenge dataset will include similar information to the warmup dataset.
 
 ## Evaluation Dataset 
 The private evaluation dataset contains additional data that will be used to evaluate the performance of the participants' models. This private evaluation dataset consists of the trajectories and atmospheric density values of satellites not included in the public challenge dataset.
