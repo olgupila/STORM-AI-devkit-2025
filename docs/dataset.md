@@ -14,7 +14,7 @@ Participants should use this subset of the STORM-AI data to become familiar with
 * <b>OMNI2_112613_012420.csv</b>: Space weather information, collected by NASA Space Flight Goddard Center 
 <!-- *<b>G13_112613_012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite -->
 * <b>SWARMA_DNS_POD_0012414_012720.csv</b>: Time series orbit average density values collected by ESA'S SWARM A satellite
-* <b>SWARMA_POD_RD_-01282014-01272020.csv/b>: Orbital elements for ESA's SWARM A satellite
+* <b>SWARMA_POD_RD_-01282014-01272020.csv</b>: Orbital elements for ESA's SWARM A satellite
 
 Your objective is to design a model that, given a spacecraft's initial state and 60 days of space weather and X-Ray flux information directly preceding that state, can predict the next 3 days of atmospheric density values the spacecraft will observe.
 
