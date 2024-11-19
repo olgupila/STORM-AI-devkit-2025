@@ -9,6 +9,6 @@ If you would like to use this methodology to begin experimenting with the warmup
 
 <div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #ff4d00; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ff4d00; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">⚠️ Attention</div>
-    <p style="font-size: 14px; margin: 0; color: #555;"> This approach is <strong>NOT the challenge baseline</strong>. A <strong>baseline solution</strong> and tutorial detailing exactly what we expect participants to provide, will be released prior to the launch of Phase 1.</strong>.</p>
+    <p style="font-size: 14px; margin: 0; color: #555;"> This approach is <strong>NOT the challenge baseline</strong>. A <strong>baseline solution</strong> and tutorial detailing exactly what we expect participants to provide will be released prior to the launch of <strong>Phase 1</strong>.</p>
 </div>
 
