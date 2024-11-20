@@ -21,7 +21,7 @@ This approach ensures the use of a private test dataset, protecting data privacy
 
 ## Important information
 
-Please take note of each of the compatibilty requirements below as they are <b>not<b> subject to change or exception.
+Please take note of each of the compatibilty requirements below as they are <b>not</b> subject to change or exception.
 
 ### Computational restrictions for submissions
 #### Hardware
