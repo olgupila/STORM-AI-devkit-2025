@@ -59,7 +59,9 @@
 
 <div style="display: flex; flex-direction: column; background-color: #fff4e5; border-left: 6px solid #ffa500; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
-    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 0</b> of the competition, and the <u><a href="https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=g9w3qh9u&dl=0" style="color: #d35400; text-decoration: none; font-weight: bold;">warmup dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#warmup-dataset" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. <b> Phase 1 </b> of the competition will begin on December 16, 2024.</p>
+    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 0</b> of the competition, and the <u><a href="
+    https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=f8fem2go&dl=0"  
+    style="color: #d35400; text-decoration: none; font-weight: bold;">warmup dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#warmup-dataset" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. <b> Phase 1 </b> of the competition will begin on December 16, 2024.</p>
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
@@ -100,10 +102,16 @@ The dataset consists of a public challenge dataset that can be used to train and
 <div align="center">
 <h3> Development Toolkit </h3>
 </div>
-<div align="justify">
-Participants will gain access to new features of our development toolkit on GitHub over the course of Phase 0. All features will be available by the launch of Phase 1 on December 16, 2024.
 
-The development kit is coded in Python and comprises a set of essential utility functions, tutorials, and baseline implementations to assist participants in getting started with the challenge problem. The tutorials will guide participants in data reading, parsing, and manipulation, as well as training, evaluating, and submitting their ML algorithms to the competition platform.
+<div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
+    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Note</div>
+    <p style="font-size: 14px; margin: 0; color: #555;">Participants will gain access to new features of our development toolkit on GitHub over the course of Phase 0. <b>All features will be available by the launch of Phase 1 on December 16, 2024.</b></p>
+</div>
+
+<div align="justify">
+
+The development kit will be coded in Python and will include a set of essential utility functions, tutorials, and baseline implementations designed to help participants get started with the challenge. The tutorials will provide guidance on data reading, parsing, and manipulation, as well as on training, evaluating, and submitting their machine learning algorithms to the competition platform.
+
 </div>
 
 ---
@@ -121,7 +129,7 @@ Throughout this challenge, we offer 10 prizes with a total value of USD 25,000 i
 * <b> Third place*: </b> USD 3,000 in cash and a trip for one team-member to present their results at a technical meeting.
 * <b> Seal of Excellence (4th - 10th)*: </b> USD 1,000 in cash.
 
-  <span style="font-size: 10px;line-height: 0.7px"><b> *Terms and conditions: </b> Expenses for travel and accommodations may be reimbursed for one person from each of the first, second, and third place teams. Airfare is reimbursable for economy class and U.S. Flag carrier airlines only. Travelers must submit a budget for approval prior to the trip. Travelers must provide comparison airfare if their trip exceeds the bounds of one day prior to and one day following the designated trip dates. Expenses will be reimbursed after the trip is complete. Cash awards are taxable, and automatic tax withholding will be carried out for nonresidents, while a 1099 will be issued for U.S. residents. Taxes for domestic payments are subject to MIT rules. Taxes for international payments (payments to non-U.S. citizens, including human subjects and recipients of student prizes or awards) are subject to a mandatory 30 percent tax withholding per U.S. government regulations. For some international awards, a reduced cash prize must be awarded due to MIT regulations. All cash prizes will be awarded after the technical meeting. All cash awards are subject to MIT policies and any relevant government policies.</span>
+  <b> *Terms and conditions: </b> Expenses for travel and accommodations may be reimbursed for one person from each of the first, second, and third place teams. Airfare is reimbursable for economy class and U.S. Flag carrier airlines only. Travelers must submit a budget for approval prior to the trip. Travelers must provide comparison airfare if their trip exceeds the bounds of one day prior to and one day following the designated trip dates. Expenses will be reimbursed after the trip is complete. Cash awards are taxable, and automatic tax withholding will be carried out for nonresidents, while a 1099 will be issued for U.S. residents. Taxes for domestic payments are subject to MIT rules. Taxes for international payments (payments to non-U.S. citizens, including human subjects and recipients of student prizes or awards) are subject to a mandatory 30 percent tax withholding per U.S. government regulations. For some international awards, a reduced cash prize must be awarded due to MIT regulations. All cash prizes will be awarded after the technical meeting. All cash awards are subject to MIT policies and any relevant government policies.
 </div>
 
 ---
