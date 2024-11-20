@@ -12,10 +12,10 @@ The <a href="https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ
 
 Participants should use this subset of the STORM-AI data to become familiar with the phenomenology and formats they will be asked to use during Phase 1 of the competition. The warmup dataset consists of: 
 * <b>OMNI2_112613_012420.csv</b>: Space weather information, collected by NASA Space Flight Goddard Center 
-* <b>SWARMA_DNS_POD_0012414_012720.csv</b>: Time series orbit average density values collected by ESA'S SWARM A satellite
+* <b>SWARMA_DNS_POD_012414_012720.csv</b>: Time series orbit average density values collected by ESA'S SWARM A satellite
 * <b>SWARMA_POD_RD_01282014-01272020.csv</b>: Orbital elements for ESA's SWARM A satellite
-* <b>GOES_EAST_G13-112613-121417.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite, operational from 2013 until 2017. Data encompasses GOES-East. 
-* <b>GOES_EAST_G13-121417-012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-16 satellite, operational from 2017 until present. Data encompasses GOES-East. 
+* <b>GOES-East_G13_112613-121417.csv</b>: X-Ray flux information, collected by NOAA'S GOES-13 satellite, operational from 2013 until 2017. Data encompasses GOES-East. 
+* <b>GOES-East_G13_121417-012420.csv</b>: X-Ray flux information, collected by NOAA'S GOES-16 satellite, operational from 2017 until present. Data encompasses GOES-East. 
 
 Your objective is to design a model that, given a spacecraft's initial state and 60 days of space weather information directly preceding that state, can predict the next 3 days of atmospheric density values the spacecraft will observe.
 
