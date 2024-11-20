@@ -8,7 +8,7 @@ The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) Dataset 
 
 ### Warmup Dataset 
 
-The [warmup dataset](https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=sty6ggo3&dl=0) for participants was released on November 15, 2024. 
+The <a href="https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=sty6ggo3&dl=0)">Warm-Up Dataset</a> for participants was released on November 15, 2024. 
 
 Participants should use this subset of the STORM-AI data to become familiar with the phenomenology and formats they will be asked to use during Phase 1 of the competition. The warmup dataset consists of: 
 * <b>OMNI2_112613_012420.csv</b>: Space weather information, collected by NASA Space Flight Goddard Center 
