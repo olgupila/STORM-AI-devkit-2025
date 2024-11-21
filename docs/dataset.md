@@ -148,7 +148,7 @@ The public challenge dataset will be available for participants to download and 
 ### Evaluation Dataset 
 The private evaluation dataset contains data from spacecraft and time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
 
-#### Release History
+### Release History
 
 | Version  | Release Date    | Description                                                                                           |
 |--------- | --------------- | ----------------------------------------------------------------------------------------------------- |
