@@ -90,7 +90,9 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 <div align="justify">
 
-You can download the current version of the challenge dataset [here](https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=g9w3qh9u&dl=0), and view our wiki page for more detailed information about the provided data and how to use it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
+You can download the current version of the challenge dataset <u><a href="
+    https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=a091whhb&dl=0"
+    style="color: #d35400; text-decoration: none; font-weight: bold;">here</a></u> and view our wiki page for more detailed information about the provided data and how to use it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
 
 The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) dataset contains a collection of historical orbital elements and satellite atmospheric densities, as well as information on magnetic field, plasma, indices, particles, X-Ray flux, and additional derived parameters. All training data is derived from public data sources distributed by organizations that are not affiliated with the AI Challenge, including the ESA, NASA Goddard Space Flight Center, and NOAA. 
 
