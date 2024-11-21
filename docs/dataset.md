@@ -2,8 +2,6 @@
 
 ## STORM-AI Data Formats
 
-The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) Dataset comprises of a public challenge and private evaluation dataset.
-
 <b>The full public challenge problem dataset will be made available to participants when the competition phase begins.</b>
 
 ### Warmup Dataset 
