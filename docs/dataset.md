@@ -1,6 +1,6 @@
 # Dataset Information
 
-## STORM-AI Dataset
+## STORM-AI Data Formats
 
 The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) Dataset comprises of a public challenge and private evaluation dataset.
 
@@ -31,6 +31,7 @@ Some recommendations:
 * We recommend reviewing the data column header descriptions below for more details on the challenge and warmup dataset. This includes exploring the column headers and data type descriptions. 
 * Be mindful of dataset units and representations! The warmup data should help get you into this mindset.
 
+### Definitions
 
 #### OMNI2 Space Weather Data
 
@@ -139,15 +140,20 @@ Some recommendations:
 | true_anomaly | Satellite true anomaly. Position of the body along the orbit at a specific time. Units in degrees. |
 
 
-## Challenge Dataset Description
-
-The STORM-AI dataset consists of a public challenge dataset and a private evaluation dataset. The public challenge dataset will contain astrometric and space weather data that can be used to train and validate AI algorithms. 
+## Challenge Dataset Availability
 
 ### Public Challenge Dataset
-The public challenge dataset will include similar information to the warmup dataset.
+The public challenge dataset will be available for participants to download and use to train and develop their models during Phase 1 of the competition. The warmup dataset is a portion of the full public dataset and is representative of the formats participants can expect for all provided training data.
 
 ### Evaluation Dataset 
-The private evaluation dataset contains additional data that will be used to evaluate the performance of the participants' models. This private evaluation dataset consists of the trajectories and atmospheric density values of satellites not included in the public challenge dataset.
+The private evaluation dataset contains data from spacecraft and time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
+
+#### Release History
+
+| Version  | Release Date    | Description                                                                                           |
+|--------- | --------------- | ----------------------------------------------------------------------------------------------------- |
+| V1.0     | 2024-11-15      | OMNI2 and SWARM A data shared in 3 files (OMNI2, SWARM A POD, SWARM A DNS) for 2014-2019              |
+| V1.1     | 2024-11-20      | Added GOES East inputs for 2014-2019                                                                  |
 
 ## Guidelines
 
@@ -155,9 +161,3 @@ Participants should note that algorithm inputs must be limited to the phenomenol
 
 Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
 
-## Release History
-
-| Version  | Release Date    | Description                                                                                           |
-|----------------------------|-------------------------------------------------------------------------------------------------------|
-| V1.0     | 2024-11-15      | OMNI2 and SWARM A data shared in 3 files (OMNI2, SWARM A POD, SWARM A DNS) for 2014-2019              |
-| V1.1     | 2024-11-20      | Added GOES East inputs for 2014-2019                                                                  |
