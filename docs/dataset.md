@@ -154,3 +154,10 @@ The private evaluation dataset contains additional data that will be used to eva
 Participants should note that algorithm inputs must be limited to the phenomenology and data formats present in the public training dataset, but utilizing additional phenomenology or data sources for model validation and development is allowed and encouraged. 
 
 Also note that since these datasets are collected from real spacecraft, there may be short gaps in the data due to blackout periods and instrument error. Participants should take this into account when designing their algorithms to ensure successful submissions.
+
+## Release History
+
+| Version  | Release Date    | Description                                                                                           |
+|----------------------------|-------------------------------------------------------------------------------------------------------|
+| V1.0     | 2024-11-15      | OMNI2 and SWARM A data shared in 3 files (OMNI2, SWARM A POD, SWARM A DNS) for 2014-2019              |
+| V1.1     | 2024-11-20      | Added GOES East inputs for 2014-2019                                                                  |
