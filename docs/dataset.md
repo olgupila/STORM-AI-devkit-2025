@@ -10,8 +10,8 @@ The <a href="https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ
 
 Participants should use this subset of the STORM-AI data to become familiar with the phenomenology and formats they will be asked to use during Phase 1 of the competition. The warmup dataset consists of the following files and folders: 
 * <b>wu001_to_wu715-initial_states.csv</b>: 715 sets of orbital elements and geodetic position coordinates for ESA's SWARM A satellite
-* <b>OMNI2</b>: Space weather information collected by NASA Space Flight Goddard Center and provided in 60-day histories (one 60-day OMNI2 history file per initial SWARM A state)
-* <b>GOES</b>: X-Ray flux information collected by NOAA'S GOES-13 satellite and provided in 60-day histories (one 60-day GOES history file per initial SWARM A state)
+* <b>OMNI2</b>: Space weather information collected by NASA Space Flight Goddard Center and provided in 60-day segments (one 60-day OMNI2 history file per initial SWARM A state)
+* <b>GOES</b>: X-Ray flux information collected by NOAA'S GOES-13 satellite and provided in 60-day segments (one 60-day GOES history file per initial SWARM A state)
 * <b>Sat_Density</b>: Time series orbit average density values collected by ESA'S SWARM A satellite and provided in 3-day segments (one 3-day "forecasted" density file per initial SWARM A state)
 
 Your objective is to design a model that, given a spacecraft's initial state and 60 days of space weather information directly preceding that state, can predict the next 3 days of atmospheric density values the spacecraft will observe.
