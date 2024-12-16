@@ -5,7 +5,7 @@ We have provided a high-fidelity orbit propagator that participants can choose t
 
 The tutorial is a tool to help participants, but it may not be necessary for all participants. To access it, the propagator is located in the github devkit (STORM-AI-devkit-2025 → orbit_propagator → propagator_tutorial.ipynb). Open propagator_tutorial.ipynb and follow the instructions to download and set-up Orekit. The tutorial also includes instructions on how to add your own atmospheric model and toggle the propagation settings.
 
-### Instructions to create a Miniconda virtual environment with the Orekit Python wrapper
+## Instructions to create a Miniconda virtual environment with the Orekit Python wrapper
 
 Installation Instructions for Miniconda can be found here: https://docs.anaconda.com/miniconda/install/
 
