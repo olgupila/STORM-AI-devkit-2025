@@ -1,26 +1,17 @@
 # Baseline Solutions
 
-# NRLMSIS-Persistence Baseline
+## NRLMSIS-Persistence Baseline
 
 This baseline is a very naive approach to the problem. Its main purpose is to guide participants through the different steps of preparing and testing a model, helping them understand the workflow required to make their own submissions.
 
 In time series problems, the **persistence baseline** is often used to assess model performance. This approach simply takes the last observed value of the input and propagates it through the output, replicating the initial value as predictions for all future steps. It can be described as follows:
 
-$$\hat{y}_{t+k} = y_t$$
+![Persistence Formulae](_img/PersistenceForm.png)
+
+For example, for yt = 5:
 
 
-\begin{aligned}
-    &\hat{y}_{t+k} &:& \ \text{Predicted value at future time } t+k, \\
-    &y_t           &:& \ \text{Observed value at the current time } t, \\
-    &k             &:& \ \text{Forecast horizon (number of steps into the future)}.
-\end{aligned}
-
-
-For example, if \( y_t = 5 \), then for any \( k \):
-
-
-$$\hat{y}_{t+1} = \hat{y}_{t+2} = \hat{y}_{t+3} = \dots = 5$$
-
+![Persistence Example](_img/PersistenceExample.png)
 
 Although this approach may seem overly simplistic, it is surprisingly effective in certain cases, to the point that beating it can be challenging. This is because, in time series prediction tasks, the closer the future time steps are to the present, the more similar their values tend to be due to local temporal dependencies. As a result, when there are no significant outliers, this method can deliver reasonably good performance.
 
