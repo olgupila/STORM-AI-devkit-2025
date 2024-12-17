@@ -2,7 +2,15 @@
 
 ## STORM-AI Data Formats
 
-<b>The full public challenge problem dataset will be made available to participants when the competition phase begins.</b>
+<b>The public challenge problem dataset is now available to participants as per the beginning of the Phase 1 of the competition.</b>
+
+## Challenge Dataset Availability
+
+### Public Challenge Dataset
+The public challenge dataset will be available for participants to download and use to train and develop their models during Phase 1 of the competition. The warmup dataset is a portion of the full public dataset and is representative of the formats participants can expect for all provided training data.
+
+### Evaluation Dataset 
+The private evaluation dataset contains data from spacecraft and time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
 
 ### Warmup Dataset 
 
@@ -30,7 +38,7 @@ Some recommendations:
 
 ### Definitions
 
-#### SWARM A Initial State Data
+#### Satellite Initial State Data
 | Column Header  | Description | 
 | ------------- | ------------- | 
 | File ID  | 5 character designator assigned to the OMNI2, GOES, & Sat_Density files associated with the initial satellite state |
@@ -130,14 +138,6 @@ Some recommendations:
 | ------------- | ------------- | 
 | Timestamp  | Datetime-like timestamp of observation. |
 | Orbit Mean Density (kg/m^3) | Orbit-average of density derived from GPS accelerations. Helps assess long-term drag effects; used to decide if drift control maneuvers are needed due to accumulated orbital decay. Units in kg/m^3. | 
-
-## Challenge Dataset Availability
-
-### Public Challenge Dataset
-The public challenge dataset will be available for participants to download and use to train and develop their models during Phase 1 of the competition. The warmup dataset is a portion of the full public dataset and is representative of the formats participants can expect for all provided training data.
-
-### Evaluation Dataset 
-The private evaluation dataset contains data from spacecraft and time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
 
 ### Release History
 
