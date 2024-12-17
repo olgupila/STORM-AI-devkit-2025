@@ -35,9 +35,11 @@
       </a>
   </div>
 
-  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed; width: fit-content;">
+  <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center;">
       <img src="https://eval.ai/dist/images/evalai-logo-single.png" alt="EvalAI Logo" style="height: 20px; margin-right: 8px;">
+      <a href="https://eval.ai/web/challenges/challenge-page/2394/overview" target="_blank" style="color: #ffffff; text-decoration: none;">
       EvalAI Challenge
+      </a>
   </div>
 
   <div style="display: inline-flex; align-items: center; background-color: #4d4d4d; color: #ffffff; border-radius: 5px; padding: 5px 10px; font-family: Arial, sans-serif; font-size: 14px; text-align: center; opacity: 0.5; cursor: not-allowed;">
@@ -65,6 +67,8 @@
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
+
+
 
 <div align="center">
 
