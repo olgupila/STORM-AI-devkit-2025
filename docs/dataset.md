@@ -1,6 +1,5 @@
 # Dataset Information
 
-## STORM-AI Data Formats
 <!-- Announcement Quote Block -->
 <!-- Announcement Quote Block -->
 <div style="display: flex; flex-direction: column; background-color: #e7f3fe; border-left: 6px solid #2196f3; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif; color: #333;">
@@ -10,15 +9,13 @@
     </p>
 </div>
 
-
-
 ## Challenge Dataset Availability
 
-### Public Challenge Dataset
 The public challenge dataset will be available for participants to download and use to train and develop their models during Phase 1 of the competition. The warmup dataset is a portion of the full public dataset and is representative of the formats participants can expect for all provided training data.
 
-### Evaluation Dataset 
-The private evaluation dataset contains data from spacecraft and time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
+The private evaluation dataset contains data from spacecraft and/or time periods that are not represented in the public training data. It will retain the same format as the public dataset and will be used to evaluate the performance of the participants' models for the public leaderboard and final rankings.
+
+## STORM-AI Data Formats
 
 ### Warmup Dataset 
 
