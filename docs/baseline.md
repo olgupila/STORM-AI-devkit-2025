@@ -1,4 +1,4 @@
-# Baseline solutions
+# Baseline Solutions
 
 # NRLMSIS-Persistence Baseline
 

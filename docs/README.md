@@ -59,9 +59,9 @@
 
 <div style="display: flex; flex-direction: column; background-color: #fff4e5; border-left: 6px solid #ffa500; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ffa500; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">🚀  Competition Status</div>
-    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 0</b> of the competition, and the <u><a href="
+    <p style="font-size: 14px; margin: 0 0 10px; color: #555;">We are currently in <b>Phase 1</b> of the competition, and the <u><a href="
     https://www.dropbox.com/scl/fo/nz1j92xpr6eet3fa5mx5i/ADMYs2zfr3dvxJ-FFd5dmM8?rlkey=tem27v1d2raf2nnlcq6cd49ev&st=f8fem2go&dl=0"  
-    style="color: #d35400; text-decoration: none; font-weight: bold;">warmup dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#warmup-dataset" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. <b> Phase 1 </b> of the competition will begin on December 16, 2024.</p>
+    style="color: #d35400; text-decoration: none; font-weight: bold;">dataset</a></u> has been released. For more information about its content and format, please check out the <u><a href="https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html#warmup-dataset" style="color: #d35400; text-decoration: none; font-weight: bold;">Dataset Information</a></u> section. You can now submit your code on a rolling basis for evaluation on the EvalAI platform. <b> Phase 1 </b> of the competition will end on March 17, 2025.</p>
     <p style="font-size: 20px; margin: 0 0 10px; color: #555; text-align:center"><b>Have fun!</b></p>
 </div>
 </div>
@@ -76,7 +76,7 @@
 
 In 2024, solar storms have lit up the skies with stunning Auroras across the United States. But while these displays are captivating to observers on the ground, space weather has the potential to wreak havoc on our global satellite infrastructure. Geomagnetic storms cause rapid heating in Earth’s thermosphere, which can lead to more than a 10x increase in satellite drag in mere hours. In May 2024, the Gannon storm caused the largest mass migration of satellites in history and severely degraded satellite collision avoidance systems worldwide for multiple days ([Parker and Linares, 2024](https://arxiv.org/abs/2406.08617)). This challenge tackles the urgent need for more efficient and accurate tracking and orbit prediction capabilities for resident space objects in the increasingly crowded near-Earth environment. As space activities expand, the demand for advanced technologies to monitor and manage satellite behavior becomes paramount. 
 
-The challenge objective is to develop cutting-edge AI algorithms for nowcasting and forecasting space weather-driven changes in atmospheric density across low earth orbit using historical space weather observations. The available phenomenology include solar and geomagnetic space weather indices,measurements of the interplanetary magnetic field, and measured solar wind parameters. Participants are provided with an existing empirical atmospheric density model and spacecraft accelerometer-derived in situ densities and are tasked with training or creating models to forecast the atmospheric density.
+The challenge objective is to develop cutting-edge AI algorithms for nowcasting and forecasting space weather-driven changes in atmospheric density across low earth orbit using historical space weather observations. The available phenomenology include solar and geomagnetic space weather indices, measurements of the interplanetary magnetic field, and measured solar wind parameters. Participants are provided with an existing empirical atmospheric density model and spacecraft accelerometer-derived in situ densities and are tasked with training or creating models to predict future atmospheric density values.
 </div>
 
 *Adapted from:*  [![arxiv](_img/arxiv_paper.svg)](https://arxiv.org/abs/2310.16912)
@@ -90,7 +90,7 @@ The challenge objective is to develop cutting-edge AI algorithms for nowcasting 
 
 <div align="justify">
 
-You can download the current version of the challenge dataset [here](https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=g9w3qh9u&dl=0), and view our wiki page for more detailed information about the provided data and how to use it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
+You can download the current version of the challenge dataset <a href="https://www.dropbox.com/scl/fo/5pq4kens2baw71p6pr1aq/AFD4xBI92ZN5CHy1cDlJp1E?rlkey=f95tcxwogoro8uel7fowm60x1&st=a091whhb&dl=0">here</a> and view our wiki page for more detailed information about the provided data and how to use it [here](https://2025-ai-challenge.readthedocs.io/en/latest/dataset.html).
 
 The Satellite Tracking and Orbit Resilience Modeling with AI (STORM-AI) dataset contains a collection of historical orbital elements and satellite atmospheric densities, as well as information on magnetic field, plasma, indices, particles, X-Ray flux, and additional derived parameters. All training data is derived from public data sources distributed by organizations that are not affiliated with the AI Challenge, including the ESA, NASA Goddard Space Flight Center, and NOAA. 
 
