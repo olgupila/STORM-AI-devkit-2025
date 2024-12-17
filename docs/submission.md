@@ -106,7 +106,7 @@ However, we have also prepared a quick tutorial for your convenience.
     <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #ff9800; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">⚠️ Attention</div>
     <p style="font-size: 14px; margin: 0; color: #555;">
         If you are encountering issues using or installing the <code>EvalAI CLI Tool</code>, we provide a Docker-based abstraction for it.  
-        You can find it <a href="#">here</a>, along with all the necessary instructions on how to use it.
+        You can find it <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/tree/main/evalai_containerization">here</a>, along with all the necessary instructions on how to use it.
     </p>
 </div>
     
