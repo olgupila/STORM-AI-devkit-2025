@@ -107,15 +107,11 @@ The dataset consists of a public challenge dataset that can be used to train and
 <h3> Development Toolkit </h3>
 </div>
 
-<div style="display: flex; flex-direction: column; background-color: #f9f9f9; border-left: 6px solid #4aa8ec; border-radius: 4px; padding: 15px; margin: 20px 0; box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); font-family: Arial, sans-serif;">
-    <div style="font-size: 18px; font-weight: bold; color: #ffffff; background-color: #4aa8ec; display: inline-block; padding: 5px 10px; border-radius: 3px; margin-bottom: 10px;">ℹ️ Note</div>
-    <p style="font-size: 14px; margin: 0; color: #555;">Participants will gain access to new features of our development toolkit on GitHub over the course of Phase 0. <b>All features will be available by the launch of Phase 1 on December 16, 2024.</b></p>
-</div>
-
 <div align="justify">
 
-The development kit will be coded in Python and will include a set of essential utility functions, tutorials, and baseline implementations designed to help participants get started with the challenge. The tutorials will provide guidance on data reading, parsing, and manipulation, as well as on training, evaluating, and submitting their machine learning algorithms to the competition platform.
+The STORM-AI DevKit is accessible on GitHub <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/">here</a>. It includes the code for the baseline model that appears on the EvalAI leaderboard, a high-fidelity orbit propagator, and more. 
 
+The development kit is coded in Python and includes a set of essential utility functions, tutorials, and baseline implementations designed to help participants get started with the challenge. The tutorials provide guidance on data reading, parsing, and manipulation, as well as on training, evaluating, and submitting the machine learning algorithms to the competition platform.
 </div>
 
 ---
