@@ -129,8 +129,60 @@ Participants should use this subset of the STORM-AI data to become familiar with
 | Flux_FLAG                  | Flag indicating quality of proton flux measurements. Units in -.                                     |
 | Date                       | Date of observation. Units in YYYY-MM-DD.                                                            |
 
-#### GOES-13 X-Ray Flux Data
-| Column Header            | Description                                                                                       |
+#### GOES-EAST (GOES-8, 12, 13, 16) X-Ray Flux Data
+For additional information on the GOES datasets, we recommend checking out <a href="https://www.dropbox.com/scl/fo/ilxkfy9yla0z2ea97tfqv/AB9lngJ2yHvf9t5h2oQXaDc?rlkey=iju8q5b1kxol78kbt0b9tcfz3&st=j7f0mcc3&dl=0">the NOAA Satellite Information System</a>.
+
+There is a specific bit arrangement for <b>xrsa_flag</b> and <b>xrsb_flag</b> values-- you can find more info on <a href="https://github.com/ARCLab-MIT/STORM-AI-devkit-2025/discussions/6">this discussion forum post</a>. Overall, it would be most helpful for you to just think of any data entries with 0.0 flag values as ‘good’ data. Any other value in the flag columns can be considered ‘bad’ or ‘compromised’ data.
+
+
+| Column Header              | Description                                                                                       |
+|-----------------------------|---------------------------------------------------------------------------------------------------|
+| time                       | Timestamp of the measurement.                                                                     |
+| quad_diode                 | Measurement from the quad diode sensor.                                                          |
+| xrsa_flux                  | Flux measured in the XRS-A sensor, represents solar soft X-ray emissions.                        |
+| xrsa_flux_observed         | Observed flux in the XRS-A sensor, including all raw measurement data without corrections.        |
+| xrsa_flux_electrons        | Estimated contribution of electron flux in the XRS-A sensor measurements.                        |
+| xrsb_flux                  | Flux measured in the XRS-B sensor, represents solar hard X-ray emissions.                        |
+| xrsb_flux_observed         | Observed flux in the XRS-B sensor, including all raw measurement data without corrections.        |
+| xrsb_flux_electrons        | Estimated contribution of electron flux in the XRS-B sensor measurements.                        |
+| xrsa_flag                  | Quality flag for XRS-A data.                                                                      |
+| xrsb_flag                  | Quality flag for XRS-B data.                                                                      |
+| xrsa_num                   | Number of valid data points in the XRS-A dataset during the study period.                         |
+| xrsb_num                   | Number of valid data points in the XRS-B dataset during the study period.                         |
+| xrsa_flag_excluded         | Indicates whether specific XRS-A data points are excluded based on quality checks. Binary flag.   |
+| xrsb_flag_excluded         | Indicates whether specific XRS-B data points are excluded based on quality checks. Binary flag.   |
+| au_factor                  | Calibration factor for converting flux values into physical units.                                |
+| corrected_current_xrsb2    | Corrected current values for the XRS-B2 sensor.                                                   |
+| roll_angle                 | Roll angle of the spacecraft during the measurement.                                              |
+| xrsa1_flux                 | Flux measured in XRS-A1 sensor, represents solar soft X-ray emissions.                           |
+| xrsa1_flux_observed        | Observed flux in XRS-A1 sensor, including all raw measurement data without corrections.           |
+| xrsa1_flux_electrons       | Estimated contribution of electron flux in the XRS-A1 sensor measurements.                       |
+| xrsa2_flux                 | Flux measured in XRS-A2 sensor, represents solar soft X-ray emissions.                           |
+| xrsa2_flux_observed        | Observed flux in XRS-A2 sensor, including all raw measurement data without corrections.           |
+| xrsa2_flux_electrons       | Estimated contribution of electron flux in the XRS-A2 sensor measurements.                       |
+| xrsb1_flux                 | Flux measured in XRS-B1 sensor, represents solar hard X-ray emissions.                           |
+| xrsb1_flux_observed        | Observed flux in XRS-B1 sensor, including all raw measurement data without corrections.           |
+| xrsb1_flux_electrons       | Estimated contribution of electron flux in the XRS-B1 sensor measurements.                       |
+| xrsb2_flux                 | Flux measured in XRS-B2 sensor, represents solar hard X-ray emissions.                           |
+| xrsb2_flux_observed        | Observed flux in XRS-B2 sensor, including all raw measurement data without corrections.           |
+| xrsb2_flux_electrons       | Estimated contribution of electron flux in the XRS-B2 sensor measurements.                       |
+| xrs_primary_chan           | Primary X-ray sensor channel used for the measurement.                                           |
+| xrsa1_flag                 | Quality flag for XRS-A1 data.                                                                     |
+| xrsa2_flag                 | Quality flag for XRS-A2 data.                                                                     |
+| xrsb1_flag                 | Quality flag for XRS-B1 data.                                                                     |
+| xrsb2_flag                 | Quality flag for XRS-B2 data.                                                                     |
+| xrsa1_num                  | Number of valid data points in the XRS-A1 dataset during the study period.                        |
+| xrsa2_num                  | Number of valid data points in the XRS-A2 dataset during the study period.                        |
+| xrsb1_num                  | Number of valid data points in the XRS-B1 dataset during the study period.                        |
+| xrsb2_num                  | Number of valid data points in the XRS-B2 dataset during the study period.                        |
+| xrsa1_flag_excluded        | Indicates whether specific XRS-A1 data points are excluded based on quality checks. Binary flag.  |
+| xrsa2_flag_excluded        | Indicates whether specific XRS-A2 data points are excluded based on quality checks. Binary flag.  |
+| xrsb1_flag_excluded        | Indicates whether specific XRS-B1 data points are excluded based on quality checks. Binary flag.  |
+| xrsb2_flag_excluded        | Indicates whether specific XRS-B2 data points are excluded based on quality checks. Binary flag.  |
+| yaw_flip_flag              | Indicates whether a yaw flip occurred during the measurement.                                     |
+
+
+<!-- | Column Header            | Description                                                                                       |
 |---------------------------|---------------------------------------------------------------------------------------------------|
 | Timestamp                 | Timestamp of the measurement.    
 | xrsa_flux                | Flux measured in the XRS-A sensor, represents solar soft X-ray emissions. |
@@ -144,7 +196,7 @@ Participants should use this subset of the STORM-AI data to become familiar with
 | xrsa_num                 | Number of valid data points in the XRS-A dataset during the study period.                          |
 | xrsb_num                 | Number of valid data points in the XRS-B dataset during the study period.                          |
 | xrsa_flag_excluded       | Indicates whether specific XRS-A data points are excluded based on quality checks. Binary flag.    |
-| xrsb_flag_excluded       | Indicates whether specific XRS-B data points are excluded based on quality checks. Binary flag.    |
+| xrsb_flag_excluded       | Indicates whether specific XRS-B data points are excluded based on quality checks. Binary flag.    | -->
 
 #### Spacecraft Atmospheric Density Data
 | Column Header  | Description | 
